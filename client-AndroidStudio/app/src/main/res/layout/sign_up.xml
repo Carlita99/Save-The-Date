@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff">
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SIGN UP"
+        android:textSize="35dp"
+        android:textColor="#6168b5"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:layout_margin="20dp"/>
+
+    <com.google.android.material.textfield.TextInputLayout
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:id="@+id/email"
+        android:layout_margin="20dp"
+        android:layout_below="@id/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/emailedit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#6168b5"
+            android:textColorHint="#6168b5"
+            android:hint="Email"/>
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:id="@+id/password"
+        android:layout_margin="20dp"
+        android:layout_below="@id/email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/passedit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#6168b5"
+            android:textColorHint="#6168b5"
+            android:password="true"
+            android:hint="Password"/>
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:id="@+id/passwordconfirm"
+        android:layout_margin="20dp"
+        android:layout_below="@id/password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/passconf"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#6168b5"
+            android:textColorHint="#6168b5"
+            android:password="true"
+            android:hint="Confirm Password"/>
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <Button
+        android:id="@+id/next"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/roundedbutton2"
+        android:layout_below="@id/passwordconfirm"
+        android:layout_alignParentEnd="true"
+        android:layout_margin="20dp"
+        android:textColor="#ffffff"
+        android:text="Next "/>
+
+    <Button
+        android:id="@+id/cancel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/roundedbutton2"
+        android:layout_below="@id/passwordconfirm"
+        android:layout_margin="20dp"
+        android:textColor="#ffffff"
+        android:text="Cancel"/>
+
+</RelativeLayout>

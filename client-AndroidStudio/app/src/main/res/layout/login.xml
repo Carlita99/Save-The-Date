@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient"
+    tools:context=".MainActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/exit"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:background="@drawable/x"
+            android:layout_margin="10dp"
+            android:layout_alignParentRight="true"
+            />
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:layout_marginTop="110dp"
+            android:text="Save the date "
+            android:fontFamily="@font/gv"
+            android:textColor="#ffffff"
+            android:textSize="70dp" />
+
+        <EditText
+            android:id="@+id/username"
+            android:textColor="#ffffff"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="50dp"
+            android:backgroundTint="#ffffff"
+            android:drawableLeft="@drawable/user"
+            android:drawablePadding="15dp"
+            android:hint="Username"
+            android:textColorHint="#ffffff"
+            android:layout_below="@+id/title"/>
+
+        <EditText
+            android:id="@+id/password"
+            android:textColor="#ffffff"
+            android:inputType="textPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="20dp"
+            android:backgroundTint="#ffffff"
+            android:drawableLeft="@drawable/lock"
+            android:drawablePadding="15dp"
+            android:hint="Password"
+            android:textColorHint="#ffffff"
+            android:layout_below="@+id/username"/>
+
+        <CheckBox
+            android:id="@+id/remeberCH"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/password"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="20dp"
+            android:buttonTint="#ffffff"/>
+
+        <TextView
+            android:id="@+id/remember"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/password"
+            android:layout_toRightOf="@+id/remeberCH"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="26dp"
+            android:textSize="15dp"
+            android:textColor="#ffffff"
+            android:text="Remember me"/>
+
+        <Button
+            android:id="@+id/login"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/remember"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="40dp"
+            android:textColor="#b873d1"
+            android:background="@drawable/roundedbutton"
+            android:text="Login"/>
+
+        <TextView
+            android:id="@+id/signup"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/login"
+            android:gravity="center"
+            android:textColor="#ffffff"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"/>
+
+        <TextView
+            android:id="@+id/forgot"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/signup"
+            android:gravity="center"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:text="I forgot my password"
+            android:visibility="gone"
+            android:textColor="#ffffff"/>
+
+    </RelativeLayout>
+
+</LinearLayout>

@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/signup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Sign Up"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:layout_margin="20dp"
+        android:textColor="#000000"/>
+
+    <EditText
+        android:id="@+id/fn"
+        android:layout_below="@id/signup"
+        android:layout_width="175dp"
+        android:padding="10dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:background="#ececec"
+        android:hint="First Name"/>
+
+    <EditText
+        android:id="@+id/ln"
+        android:layout_below="@id/signup"
+        android:layout_width="175dp"
+        android:padding="10dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:background="#ececec"
+        android:hint="Last Name"
+        android:layout_toRightOf="@+id/fn"/>
+
+    <EditText
+        android:id="@+id/email"
+        android:layout_below="@id/fn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:background="#ececec"
+        android:hint="Email"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"/>
+
+    <EditText
+        android:id="@+id/pass"
+        android:layout_below="@id/email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:background="#ececec"
+        android:hint="Password"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"/>
+
+    <EditText
+        android:id="@+id/confpass"
+        android:layout_below="@id/pass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:background="#ececec"
+        android:hint="Confirm Password"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/main_header_selector"
+        android:layout_below="@id/confpass"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:textColor="#ffffff"
+        android:text="Sign Up"/>
+
+
+</RelativeLayout>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.savethedate"
+    android:targetSandboxVersion="2"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="22"
+        android:targetSdkVersion="29" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+        android:debuggable="true"
+        android:hardwareAccelerated="false"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:testOnly="true"
+        android:theme="@style/AppTheme"
+        android:usesCleartextTraffic="true" >
+        <activity android:name="com.example.savethedate.MainActivity" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.example.savethedate.Controllers.EventView" />
+        <activity android:name="com.example.savethedate.Controllers.LoginView" />
+        <activity android:name="com.example.savethedate.Controllers.HomeView" />
+        <activity android:name="com.example.savethedate.Controllers.ProfileView" />
+        <activity android:name="com.example.savethedate.Controllers.EditProfile" />
+        <activity android:name="com.example.savethedate.Controllers.ViewCorrespondingEvent" />
+        <activity android:name="com.example.savethedate.Controllers.ViewCorrespondingService" />
+        <activity android:name="com.example.savethedate.Controllers.CreateEventView" />
+        <activity android:name="com.example.savethedate.Controllers.ServiceReservationsForEvent" />
+        <activity android:name="com.example.savethedate.Controllers.ChangePasswordView" />
+        <activity android:name="com.example.savethedate.Controllers.ServicesListView" />
+        <activity android:name="com.example.savethedate.Controllers.ConfirmServicesView" />
+        <activity android:name="com.example.savethedate.Controllers.OtherProfileView" />
+        <activity android:name="com.example.savethedate.Controllers.SignUpView" />
+        <activity android:name="com.example.savethedate.Controllers.SignUpViewNext" />
+        <activity android:name="com.example.savethedate.Controllers.CreateServiceView" />
+        <activity android:name="com.example.savethedate.Controllers.ServiceView" />
+        <activity android:name="com.example.savethedate.Controllers.EditEventView" />
+        <activity android:name="com.example.savethedate.Controllers.EditServiceView" />
+        <activity android:name="com.example.savethedate.Controllers.ShowEventReviews" />
+        <activity android:name="com.example.savethedate.Controllers.ShowServiceReviews" />
+        <activity android:name="com.example.savethedate.Controllers.ViewAllReservations" />
+        <activity android:name="com.example.savethedate.Controllers.HomeView2" />
+        <activity android:name="com.example.savethedate.Controllers.CancelServiceReservation" />
+        <activity android:name="com.example.savethedate.Controllers.ViewAllServiceReservations" />
+        <activity android:name="com.example.savethedate.Controllers.CancelEventReservation" />
+        <activity
+            android:name="com.karumi.dexter.DexterActivity"
+            android:theme="@style/Dexter.Internal.Theme.Transparent" />
+    </application>
+
+</manifest>

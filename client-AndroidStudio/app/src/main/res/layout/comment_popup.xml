@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="360dp"
+    android:background="#ffffff"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <TextView
+        android:id="@+id/rate"
+        android:textStyle="bold"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:padding="3dp"
+        android:gravity="center_horizontal"
+        android:text="Rate this Event!"
+        android:textColor="#000000"
+        android:textSize="20dp"/>
+
+    <TextView
+        android:id="@+id/please"
+        android:layout_below="@id/rate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:gravity="center_horizontal"
+        android:text="Please give your rating and feedback."
+        android:textSize="15dp"/>
+
+    <me.zhanghai.android.materialratingbar.MaterialRatingBar
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/please"
+        android:id="@+id/rating"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:minHeight="50dp"
+        android:maxHeight="50dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginBottom="10dp"
+        app:mrb_progressTint="#5e6db5"
+        android:progressBackgroundTint="#8e24b5"
+        style="@style/Widget.MaterialRatingBar.RatingBar" />
+
+    <EditText
+        android:id="@+id/comment"
+        android:layout_below="@id/rating"
+        android:layout_width="match_parent"
+        android:gravity="top"
+        android:padding="10dp"
+        android:layout_height="150dp"
+        android:background="#e3e2de"
+        android:hint="Please write your comment here ..."
+        android:editable="true"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"/>
+
+    <TextView
+        android:id="@+id/submit"
+        android:textStyle="bold"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/comment"
+        android:layout_margin="15dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Submit"
+        android:textColor="#8e24b5"
+        android:textSize="15dp"/>
+
+    <TextView
+        android:id="@+id/cancel"
+        android:textStyle="bold"
+        android:layout_toLeftOf="@id/submit"
+        android:layout_below="@id/comment"
+        android:layout_margin="15dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cancel"
+        android:textColor="#8e24b5"
+        android:textSize="15dp"/>
+
+</RelativeLayout>

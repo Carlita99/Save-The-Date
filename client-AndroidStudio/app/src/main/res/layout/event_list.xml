@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TableRow
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/image"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="7dp"
+            android:adjustViewBounds="true"
+            android:src="@drawable/emptyimage" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/nameE"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="15dp"
+                android:fontFamily="@font/tnr"
+                android:text="Night fever"
+                android:textColor="#6168b5"
+                android:textSize="15dp"
+                android:textStyle="bold" />
+
+            <com.codesgood.views.JustifiedTextView
+                android:id="@+id/desc"
+                android:layout_width="140dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/nameE"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="7dp"
+                android:text="Here we will describe in a few words the event...dfbsj bdbcsvbcsd vhhh js fdjd jfbska kcbkc cdskcbs sajbckdbc."
+                android:textColor="#000000"
+                android:textSize="10dp"
+                android:textStyle="bold" />
+        </RelativeLayout>
+
+        <ImageView
+            android:id="@+id/edit"
+            android:layout_width="17dp"
+            android:layout_height="17dp"
+            android:layout_alignParentRight="true"
+            android:visibility="gone"
+            android:background="@drawable/pluagradient"/>
+
+    </TableRow>
+
+    <View
+        android:layout_marginTop="10dp"
+        android:layout_below="@id/desc"
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="#c7bdbd" />
+
+</TableLayout>

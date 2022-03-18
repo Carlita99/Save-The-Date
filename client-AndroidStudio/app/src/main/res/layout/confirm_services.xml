@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent">
+
+    <com.guanaj.easyswipemenulibrary.EasySwipeMenuLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:contentView="@+id/content"
+        app:rightMenuView="@+id/right">
+        <LinearLayout
+            android:id="@+id/content"
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:orientation="vertical"
+            android:padding="5dp">
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    xmlns:app="http://schemas.android.com/apk/res-auto"
+                    android:id="@+id/profile"
+                    android:layout_width="170dp"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/emptyimage"
+                    android:adjustViewBounds="true"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="15dp"/>
+
+                <TextView
+                    android:id="@+id/name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Event name"
+                    android:layout_toRightOf="@id/profile"
+                    android:textColor="#000000"
+                    android:textSize="13dp"
+                    android:textStyle="bold"
+                    android:layout_marginTop="12dp"
+                    android:layout_marginLeft="5dp"/>
+
+                <TextView
+                    android:id="@+id/organizer"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/name"
+                    android:layout_alignStart="@id/name"
+                    android:text="Event organizer"/>
+
+                <TextView
+                    android:id="@+id/date"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="date"
+                    android:layout_below="@id/organizer"
+                    android:layout_alignStart="@id/organizer"/>
+
+                <TextView
+                    android:id="@+id/price"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Enter Price"
+                    android:layout_marginTop="10dp"
+                    android:layout_below="@id/date"
+                    android:layout_alignStart="@id/date"/>
+
+                <EditText
+                    android:id="@+id/pricedit"
+                    android:layout_width="70dp"
+                    android:layout_height="40dp"
+                    android:layout_below="@id/date"
+                    android:inputType="numberDecimal"
+                    android:layout_toRightOf="@id/price"/>
+
+            </RelativeLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/right"
+            android:layout_width="wrap_content"
+            android:layout_height="120dp"
+            android:background="#ffffff"
+            android:paddingTop="10dp"
+            android:orientation="horizontal">
+            <TextView
+                android:id="@+id/confirm"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#6168b5"
+                android:textColor="#ffffff"
+                android:padding="20dp"
+                android:layout_marginTop="23dp"
+                android:layout_marginRight="2dp"
+                android:text="Confirm" />
+            <TextView
+                android:id="@+id/right_menu_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#6168b5"
+                android:padding="20dp"
+                android:layout_marginTop="23dp"
+                android:textColor="#ffffff"
+                android:text="Reject" />
+        </LinearLayout>
+    </com.guanaj.easyswipemenulibrary.EasySwipeMenuLayout>
+</LinearLayout>

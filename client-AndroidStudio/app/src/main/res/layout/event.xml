@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/card"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:id="@+id/lay"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/services"
+                android:layout_width="19dp"
+                android:layout_height="19dp"
+                android:layout_alignParentEnd="true"
+                android:background="@drawable/services"
+                android:layout_margin="15dp"/>
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/profile"
+                android:layout_width="82dp"
+                android:layout_height="82dp"
+                android:src="@drawable/emptyimage"
+                android:layout_margin="15dp"/>
+
+            <TextView
+                android:id="@+id/nameE"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_marginTop="30dp"
+                android:layout_toRightOf="@+id/profile"
+                android:fontFamily="@font/tnr"
+                android:textColor="#6168b5"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/nameO"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/nameE"
+                android:layout_alignParentRight="true"
+                android:layout_toRightOf="@+id/profile"
+                android:textColor="#6168b5"
+                android:textSize="15dp" />
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/emptyimage"
+                android:adjustViewBounds="true"
+                android:layout_below="@+id/profile"
+                android:layout_marginTop="5dp"/>
+
+            <TextView
+                android:id="@+id/avgreview"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/imageView"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="7dp"
+                android:visibility="gone"
+                android:layout_toLeftOf="@id/star"/>
+
+            <ImageView
+                android:id="@+id/star"
+                android:layout_width="15dp"
+                android:layout_height="15dp"
+                android:layout_alignParentEnd="true"
+                android:layout_marginTop="12dp"
+                android:layout_marginBottom="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_below="@id/imageView"
+                android:visibility="gone"
+                android:background="@drawable/blackstar"/>
+
+            <ImageView
+                android:id="@+id/comment"
+                android:layout_width="23dp"
+                android:layout_height="23dp"
+                android:layout_below="@+id/imageView"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="5dp"
+                android:visibility="gone"
+                android:background="@drawable/comment" />
+
+            <ImageView
+                android:id="@+id/contact"
+                android:layout_width="23dp"
+                android:layout_height="23dp"
+                android:layout_below="@+id/imageView"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="5dp"
+                android:layout_toRightOf="@+id/comment"
+                android:visibility="gone"
+                android:background="@drawable/reviewshow" />
+
+            <com.codesgood.views.JustifiedTextView
+                android:id="@+id/desc"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/comment"
+                android:layout_marginLeft="15dp"
+                android:textColor="#000000"
+                android:layout_marginTop="10dp"
+                android:justificationMode="inter_word"
+                android:paddingRight="10dp"
+                android:textSize="15dp" />
+
+
+            <TextView
+                android:id="@+id/date"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="2020-10-5"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="15dp"
+                android:layout_below="@id/desc"/>
+
+            <TextView
+                android:id="@+id/viewstatus"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/date"
+                android:text="View my reservations status"
+                android:layout_marginLeft="15dp"
+                android:paddingBottom="7dp"
+                android:textColor="@color/myColor"
+                android:visibility="gone"
+                android:layout_marginTop="3dp"/>
+
+            <TextView
+                android:id="@+id/cancelreserv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/viewstatus"
+                android:text="Cancel a reservation"
+                android:layout_marginLeft="15dp"
+                android:paddingBottom="15dp"
+                android:textColor="@color/myColor"
+                android:visibility="gone"
+                android:layout_marginTop="3dp"/>
+
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+
+    <View
+        android:id="@+id/view"
+        android:layout_below="@id/imgView"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#c7bdbd" />
+
+</LinearLayout>

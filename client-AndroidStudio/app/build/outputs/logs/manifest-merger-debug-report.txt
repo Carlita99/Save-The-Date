@@ -1,0 +1,381 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Users\Carlita\AndroidStudioProjects\TestProject\SaveTheDate\app\src\main\AndroidManifest.xml:2:1-52:12
+INJECTED from C:\Users\Carlita\AndroidStudioProjects\TestProject\SaveTheDate\app\src\main\AndroidManifest.xml:2:1-52:12
+INJECTED from C:\Users\Carlita\AndroidStudioProjects\TestProject\SaveTheDate\app\src\main\AndroidManifest.xml:2:1-52:12
+INJECTED from C:\Users\Carlita\AndroidStudioProjects\TestProject\SaveTheDate\app\src\main\AndroidManifest.xml:2:1-52:12
+MERGED from [com.karumi:dexter:6.0.0] C:\Users\Carlita\.gradle\caches\transforms-2\files-2.1\d16818fb523b545fa829b9679790384c\AndroidManifest.xml:17:1-32:12
+MERGED from [com.github.sephiroth74:NumberSlidingPicker:1.0.3] C:\Users\Carlita\.gradle\caches\transforms-2\files-2.1\b4f32f21e6c16c94646912494c3720b6\AndroidManifest.xml:2:1-11:12
+MERGED from [com.github.HITGIF:TextFieldBoxes:1.4.4] C:\Users\Carlita\.gradle\caches\transforms-2\files-2.1\5ac4c566f05699887221856c4eddd8c1\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.material:material:1.0.0] C:\Users\Carlita\.gradle\caches\transforms-2\files-2.1\8a88217a8bf806edac6c52ad2543a34b\AndroidManifest.xml:17:1-24:12
+MERGED from [me.zhanghai.android.materialratingbar:library:1.4.0] C:\Users\Carlita\.gradle\caches\transforms-2\files-2.1\6ae76fd30bbe0debaeb6b6c77cedad5d\AndroidManifest.xml:6:1-15:12
+MERGED from [com.github.psinetron:slycalendarview:0.0.9] C:\Users\Carlita\.gradle\caches\transforms-2\files-2.1\baf0a7dc6f9cbff1c3d6c30f7a3222dc\AndroidManifest.xml:2:1-11:12
+MERGED from [com.ramotion.foldingcell:folding-cell:1.2.3] C:\Users\Carlita\.gradle\caches\transforms-2\files-2.1\ab0e480c1990a0cf6f84fd56432c5b7a\AndroidManifest.xml:2:1-11:12
+MERGED from [com.github.drawers:SpinnerDatePicker:2.0.1] C:\Users\Carlita\.gradle\caches\transforms-2\files-2.1\5c56f4bb190c110b8cac3f2f8c9637e1\AndroidManifest.xml:2:1-13:12
+MERGED from [com.github.skydoves:powermenu:2.1.2] C:\Users\Carlita\.gradle\caches\transforms-2\files-2.1\ef72d885809212e56b03eb5720097d6d\AndroidManifest.xml:2:1-11:12
+MERGED from [com.stepstone.apprating:app-rating:2.3.1] C:\Users\Carlita\.gradle\caches\transforms-2\files-2.1\93101e2278c819cd860c2a07577ce4be\AndroidManifest.xml:2:1-13:12
+MERGED from [com.github.sephiroth74:android-target-tooltip:v2.0.4] C:\Users\Carlita\.gradle\caches\transforms-2\files-2.1\989b3c1b0e416b4a005cd1d94b5b401a\AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.appcompat:appcompat:1.1.0] C:\Users\Carlita\.gradle\caches\transforms-2\files-2.1\9032e52b2a72f30b7f44fc37e2b19e13\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\Carlita\.gradle\caches\transforms-2\files-2.1\09fdea2437d852190d979a9dc5d62662\AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\Carlita\.gradle\caches\transforms-2\files-2.1\69c892de129db8cc86553f931d3e9761\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\Carlita\.gradle\caches\transforms-2\files-2.1\1af3b780c525152c8fd4e8c66ee2edf2\AndroidManifest.xml:17:1-22:12
+MERGED from [de.hdodenhof:circleimageview:3.0.1] C:\Users\Carlita\.gradle\caches\transforms-2\files-2.1\0d4580d220d8d22fdd2f6d8367bff6d4\AndroidManifest.xml:2:1-11:12
+MERGED from [jp.wasabeef:blurry:3.0.0] C:\Users\Carlita\.gradle\caches\transforms-2\files-2.1\c4ddb49e0ac707c97cb16492e30893b5\AndroidManifest.xml:2:1-9:12
+MERGED from [com.codesgood:justifiedtextview:1.1.0] C:\Users\Carlita\.gradle\caches\transforms-2\files-2.1\8d00f648a5bcaf56fe32099ade02ecde\AndroidManifest.xml:2:1-14:12
+MERGED from [com.nightonke:boommenu:2.1.1] C:\Users\Carlita\.gradle\caches\transforms-2\files-2.1\ce31f4f565ab7243f1e7c8692c2b9a9b\AndroidManifest.xml:2:1-16:12
+MERGED from [com.jaredrummler:material-spinner:1.3.1] C:\Users\Carlita\.gradle\caches\transforms-2\files-2.1\5ac7c993fb7b41a4c30812609de8d9a6\AndroidManifest.xml:2:1-9:12
+MERGED from [com.github.anzaizai:EasySwipeMenuLayout:1.1.4] C:\Users\Carlita\.gradle\caches\transforms-2\files-2.1\0b6d44a5a4aa4dee8e3bc62f566a9697\AndroidManifest.xml:2:1-14:12
+MERGED from [androidx.fragment:fragment:1.1.0] C:\Users\Carlita\.gradle\caches\transforms-2\files-2.1\8bcd8ed450fc55798ddfe7fdcb4bedea\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.appcompat:appcompat-resources:1.1.0] C:\Users\Carlita\.gradle\caches\transforms-2\files-2.1\fde23ec6ede3f1a0af9798ad8f727ad2\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.recyclerview:recyclerview:1.0.0] C:\Users\Carlita\.gradle\caches\transforms-2\files-2.1\33affb1eaaf08879e522e7697de0549b\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\Carlita\.gradle\caches\transforms-2\files-2.1\f53e70411dbfa4271a08d21f7ebad662\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\Carlita\.gradle\caches\transforms-2\files-2.1\eed0cbc419a3c4dff2e3121bf8e4066b\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.media:media:1.0.0] C:\Users\Carlita\.gradle\caches\transforms-2\files-2.1\a07d33766ef0d65881327681344b66eb\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\Carlita\.gradle\caches\transforms-2\files-2.1\77c1c527e4cf2c859cade01763f77676\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.transition:transition:1.0.0] C:\Users\Carlita\.gradle\caches\transforms-2\files-2.1\0863dbd7de94622f9f23a45cb859c635\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core-ktx:1.1.0-alpha05] C:\Users\Carlita\.gradle\caches\transforms-2\files-2.1\ca8758248ee9c790440c905a12a7cb95\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\Carlita\.gradle\caches\transforms-2\files-2.1\6a21fd0478522f038973b9b099fe512b\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\Carlita\.gradle\caches\transforms-2\files-2.1\b213765dbdad6a0189c59a40ccf1b1e1\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.activity:activity:1.0.0] C:\Users\Carlita\.gradle\caches\transforms-2\files-2.1\6cea14099cb500715fc2e8a5f9c75f75\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\Carlita\.gradle\caches\transforms-2\files-2.1\d5e5aa521251c4072b6049f887870f76\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\Carlita\.gradle\caches\transforms-2\files-2.1\507181a21c3704e31d994b61e6843311\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] C:\Users\Carlita\.gradle\caches\transforms-2\files-2.1\c24fa042ada0bee9b5cf0df3c8f324b3\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\Carlita\.gradle\caches\transforms-2\files-2.1\f939a0b37e07b679541c9d2d288aff4a\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\Carlita\.gradle\caches\transforms-2\files-2.1\977b8820fdf1501741519f38f280a80c\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\Carlita\.gradle\caches\transforms-2\files-2.1\a830d9a8db98a148f875b0ee9581ae5a\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\Carlita\.gradle\caches\transforms-2\files-2.1\213e8321c3933b52197dd944499dfaa2\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core:1.1.0] C:\Users\Carlita\.gradle\caches\transforms-2\files-2.1\cafebd160b924f7d24b8c3a77467d7a9\AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\Carlita\.gradle\caches\transforms-2\files-2.1\ff2ab4d6b46c9e6494eeaeba2b032e0b\AndroidManifest.xml:17:1-22:12
+MERGED from [com.github.sephiroth74:AndroidUIGestureRecognizer:v1.2.7] C:\Users\Carlita\.gradle\caches\transforms-2\files-2.1\6ca908a5bc73f2be7780832f8ef84153\AndroidManifest.xml:2:1-13:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\Carlita\.gradle\caches\transforms-2\files-2.1\302a8805016ba148909983a13e32c631\AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\Carlita\.gradle\caches\transforms-2\files-2.1\363073d6a509380134eb6f0c26b02c24\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\Carlita\.gradle\caches\transforms-2\files-2.1\e47dba45407eac7eddf1fe1237674644\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] C:\Users\Carlita\.gradle\caches\transforms-2\files-2.1\e88e20981c7c1a23ed9df43ad5ea9fd6\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\Carlita\.gradle\caches\transforms-2\files-2.1\978d0f6429c29091391b96ad5f125ae4\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0] C:\Users\Carlita\.gradle\caches\transforms-2\files-2.1\37dff403666748bcaee491745fbb349b\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] C:\Users\Carlita\.gradle\caches\transforms-2\files-2.1\015d687f0b662ab9db6243666b81d251\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.savedstate:savedstate:1.0.0] C:\Users\Carlita\.gradle\caches\transforms-2\files-2.1\9246e247a3643332518fafb48a3bfcdb\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\Carlita\.gradle\caches\transforms-2\files-2.1\07ba1fa362047c558f6f3189631fbb8c\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\Carlita\.gradle\caches\transforms-2\files-2.1\8a5402df34569d69461c5cdc9c1ceb4b\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\Carlita\.gradle\caches\transforms-2\files-2.1\ebb201dbf93ef8e445c436b928d8e944\AndroidManifest.xml:17:1-22:12
+MERGED from [io.reactivex.rxjava2:rxandroid:2.1.0] C:\Users\Carlita\.gradle\caches\transforms-2\files-2.1\954b17447a7b2630b4375d880e262d70\AndroidManifest.xml:15:1-20:12
+MERGED from [com.jakewharton.timber:timber:4.7.1] C:\Users\Carlita\.gradle\caches\transforms-2\files-2.1\9b10e58d10c704635f955bd53ef863f4\AndroidManifest.xml:2:1-9:12
+INJECTED from C:\Users\Carlita\AndroidStudioProjects\TestProject\SaveTheDate\app\src\main\AndroidManifest.xml:2:1-52:12
+INJECTED from C:\Users\Carlita\AndroidStudioProjects\TestProject\SaveTheDate\app\src\main\AndroidManifest.xml:2:1-52:12
+INJECTED from C:\Users\Carlita\AndroidStudioProjects\TestProject\SaveTheDate\app\src\main\AndroidManifest.xml:2:1-52:12
+	package
+		ADDED from C:\Users\Carlita\AndroidStudioProjects\TestProject\SaveTheDate\app\src\main\AndroidManifest.xml:3:5-38
+		INJECTED from C:\Users\Carlita\AndroidStudioProjects\TestProject\SaveTheDate\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Carlita\AndroidStudioProjects\TestProject\SaveTheDate\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from C:\Users\Carlita\AndroidStudioProjects\TestProject\SaveTheDate\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Carlita\AndroidStudioProjects\TestProject\SaveTheDate\app\src\main\AndroidManifest.xml:2:1-52:12
+		INJECTED from C:\Users\Carlita\AndroidStudioProjects\TestProject\SaveTheDate\app\src\main\AndroidManifest.xml
+	android:versionCode
+		INJECTED from C:\Users\Carlita\AndroidStudioProjects\TestProject\SaveTheDate\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Carlita\AndroidStudioProjects\TestProject\SaveTheDate\app\src\main\AndroidManifest.xml:2:1-52:12
+		INJECTED from C:\Users\Carlita\AndroidStudioProjects\TestProject\SaveTheDate\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\Users\Carlita\AndroidStudioProjects\TestProject\SaveTheDate\app\src\main\AndroidManifest.xml:2:11-69
+uses-permission#android.permission.INTERNET
+ADDED from C:\Users\Carlita\AndroidStudioProjects\TestProject\SaveTheDate\app\src\main\AndroidManifest.xml:5:5-66
+	android:name
+		ADDED from C:\Users\Carlita\AndroidStudioProjects\TestProject\SaveTheDate\app\src\main\AndroidManifest.xml:5:22-64
+application
+ADDED from C:\Users\Carlita\AndroidStudioProjects\TestProject\SaveTheDate\app\src\main\AndroidManifest.xml:7:5-50:19
+MERGED from [com.karumi:dexter:6.0.0] C:\Users\Carlita\.gradle\caches\transforms-2\files-2.1\d16818fb523b545fa829b9679790384c\AndroidManifest.xml:26:5-30:19
+MERGED from [com.karumi:dexter:6.0.0] C:\Users\Carlita\.gradle\caches\transforms-2\files-2.1\d16818fb523b545fa829b9679790384c\AndroidManifest.xml:26:5-30:19
+MERGED from [com.google.android.material:material:1.0.0] C:\Users\Carlita\.gradle\caches\transforms-2\files-2.1\8a88217a8bf806edac6c52ad2543a34b\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.material:material:1.0.0] C:\Users\Carlita\.gradle\caches\transforms-2\files-2.1\8a88217a8bf806edac6c52ad2543a34b\AndroidManifest.xml:22:5-20
+MERGED from [com.github.drawers:SpinnerDatePicker:2.0.1] C:\Users\Carlita\.gradle\caches\transforms-2\files-2.1\5c56f4bb190c110b8cac3f2f8c9637e1\AndroidManifest.xml:11:5-20
+MERGED from [com.github.drawers:SpinnerDatePicker:2.0.1] C:\Users\Carlita\.gradle\caches\transforms-2\files-2.1\5c56f4bb190c110b8cac3f2f8c9637e1\AndroidManifest.xml:11:5-20
+MERGED from [com.stepstone.apprating:app-rating:2.3.1] C:\Users\Carlita\.gradle\caches\transforms-2\files-2.1\93101e2278c819cd860c2a07577ce4be\AndroidManifest.xml:11:5-20
+MERGED from [com.stepstone.apprating:app-rating:2.3.1] C:\Users\Carlita\.gradle\caches\transforms-2\files-2.1\93101e2278c819cd860c2a07577ce4be\AndroidManifest.xml:11:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\Carlita\.gradle\caches\transforms-2\files-2.1\09fdea2437d852190d979a9dc5d62662\AndroidManifest.xml:9:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\Carlita\.gradle\caches\transforms-2\files-2.1\09fdea2437d852190d979a9dc5d62662\AndroidManifest.xml:9:5-20
+MERGED from [de.hdodenhof:circleimageview:3.0.1] C:\Users\Carlita\.gradle\caches\transforms-2\files-2.1\0d4580d220d8d22fdd2f6d8367bff6d4\AndroidManifest.xml:9:5-20
+MERGED from [de.hdodenhof:circleimageview:3.0.1] C:\Users\Carlita\.gradle\caches\transforms-2\files-2.1\0d4580d220d8d22fdd2f6d8367bff6d4\AndroidManifest.xml:9:5-20
+MERGED from [com.codesgood:justifiedtextview:1.1.0] C:\Users\Carlita\.gradle\caches\transforms-2\files-2.1\8d00f648a5bcaf56fe32099ade02ecde\AndroidManifest.xml:11:5-12:19
+MERGED from [com.codesgood:justifiedtextview:1.1.0] C:\Users\Carlita\.gradle\caches\transforms-2\files-2.1\8d00f648a5bcaf56fe32099ade02ecde\AndroidManifest.xml:11:5-12:19
+MERGED from [com.nightonke:boommenu:2.1.1] C:\Users\Carlita\.gradle\caches\transforms-2\files-2.1\ce31f4f565ab7243f1e7c8692c2b9a9b\AndroidManifest.xml:11:5-14:19
+MERGED from [com.nightonke:boommenu:2.1.1] C:\Users\Carlita\.gradle\caches\transforms-2\files-2.1\ce31f4f565ab7243f1e7c8692c2b9a9b\AndroidManifest.xml:11:5-14:19
+MERGED from [com.github.anzaizai:EasySwipeMenuLayout:1.1.4] C:\Users\Carlita\.gradle\caches\transforms-2\files-2.1\0b6d44a5a4aa4dee8e3bc62f566a9697\AndroidManifest.xml:11:5-12:19
+MERGED from [com.github.anzaizai:EasySwipeMenuLayout:1.1.4] C:\Users\Carlita\.gradle\caches\transforms-2\files-2.1\0b6d44a5a4aa4dee8e3bc62f566a9697\AndroidManifest.xml:11:5-12:19
+MERGED from [androidx.core:core:1.1.0] C:\Users\Carlita\.gradle\caches\transforms-2\files-2.1\cafebd160b924f7d24b8c3a77467d7a9\AndroidManifest.xml:24:5-89
+MERGED from [androidx.core:core:1.1.0] C:\Users\Carlita\.gradle\caches\transforms-2\files-2.1\cafebd160b924f7d24b8c3a77467d7a9\AndroidManifest.xml:24:5-89
+MERGED from [com.github.sephiroth74:AndroidUIGestureRecognizer:v1.2.7] C:\Users\Carlita\.gradle\caches\transforms-2\files-2.1\6ca908a5bc73f2be7780832f8ef84153\AndroidManifest.xml:11:5-20
+MERGED from [com.github.sephiroth74:AndroidUIGestureRecognizer:v1.2.7] C:\Users\Carlita\.gradle\caches\transforms-2\files-2.1\6ca908a5bc73f2be7780832f8ef84153\AndroidManifest.xml:11:5-20
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\Carlita\.gradle\caches\transforms-2\files-2.1\302a8805016ba148909983a13e32c631\AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\Carlita\.gradle\caches\transforms-2\files-2.1\302a8805016ba148909983a13e32c631\AndroidManifest.xml:24:5-25:19
+MERGED from [com.jakewharton.timber:timber:4.7.1] C:\Users\Carlita\.gradle\caches\transforms-2\files-2.1\9b10e58d10c704635f955bd53ef863f4\AndroidManifest.xml:7:5-20
+MERGED from [com.jakewharton.timber:timber:4.7.1] C:\Users\Carlita\.gradle\caches\transforms-2\files-2.1\9b10e58d10c704635f955bd53ef863f4\AndroidManifest.xml:7:5-20
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.1.0] C:\Users\Carlita\.gradle\caches\transforms-2\files-2.1\cafebd160b924f7d24b8c3a77467d7a9\AndroidManifest.xml:24:18-86
+	android:supportsRtl
+		ADDED from C:\Users\Carlita\AndroidStudioProjects\TestProject\SaveTheDate\app\src\main\AndroidManifest.xml:13:9-35
+	android:label
+		ADDED from C:\Users\Carlita\AndroidStudioProjects\TestProject\SaveTheDate\app\src\main\AndroidManifest.xml:11:9-41
+	android:hardwareAccelerated
+		ADDED from C:\Users\Carlita\AndroidStudioProjects\TestProject\SaveTheDate\app\src\main\AndroidManifest.xml:14:9-44
+	android:roundIcon
+		ADDED from C:\Users\Carlita\AndroidStudioProjects\TestProject\SaveTheDate\app\src\main\AndroidManifest.xml:12:9-54
+	android:largeHeap
+		ADDED from C:\Users\Carlita\AndroidStudioProjects\TestProject\SaveTheDate\app\src\main\AndroidManifest.xml:15:9-33
+	android:icon
+		ADDED from C:\Users\Carlita\AndroidStudioProjects\TestProject\SaveTheDate\app\src\main\AndroidManifest.xml:10:9-43
+	android:allowBackup
+		ADDED from C:\Users\Carlita\AndroidStudioProjects\TestProject\SaveTheDate\app\src\main\AndroidManifest.xml:9:9-35
+	android:theme
+		ADDED from C:\Users\Carlita\AndroidStudioProjects\TestProject\SaveTheDate\app\src\main\AndroidManifest.xml:16:9-40
+	android:usesCleartextTraffic
+		ADDED from C:\Users\Carlita\AndroidStudioProjects\TestProject\SaveTheDate\app\src\main\AndroidManifest.xml:8:9-44
+activity#com.example.savethedate.MainActivity
+ADDED from C:\Users\Carlita\AndroidStudioProjects\TestProject\SaveTheDate\app\src\main\AndroidManifest.xml:17:9-23:20
+	android:name
+		ADDED from C:\Users\Carlita\AndroidStudioProjects\TestProject\SaveTheDate\app\src\main\AndroidManifest.xml:17:19-47
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from C:\Users\Carlita\AndroidStudioProjects\TestProject\SaveTheDate\app\src\main\AndroidManifest.xml:18:13-22:29
+action#android.intent.action.MAIN
+ADDED from C:\Users\Carlita\AndroidStudioProjects\TestProject\SaveTheDate\app\src\main\AndroidManifest.xml:19:17-69
+	android:name
+		ADDED from C:\Users\Carlita\AndroidStudioProjects\TestProject\SaveTheDate\app\src\main\AndroidManifest.xml:19:25-66
+category#android.intent.category.LAUNCHER
+ADDED from C:\Users\Carlita\AndroidStudioProjects\TestProject\SaveTheDate\app\src\main\AndroidManifest.xml:21:17-77
+	android:name
+		ADDED from C:\Users\Carlita\AndroidStudioProjects\TestProject\SaveTheDate\app\src\main\AndroidManifest.xml:21:27-74
+activity#com.example.savethedate.Controllers.EventView
+ADDED from C:\Users\Carlita\AndroidStudioProjects\TestProject\SaveTheDate\app\src\main\AndroidManifest.xml:24:9-58
+	android:name
+		ADDED from C:\Users\Carlita\AndroidStudioProjects\TestProject\SaveTheDate\app\src\main\AndroidManifest.xml:24:19-56
+activity#com.example.savethedate.Controllers.LoginView
+ADDED from C:\Users\Carlita\AndroidStudioProjects\TestProject\SaveTheDate\app\src\main\AndroidManifest.xml:25:9-58
+	android:name
+		ADDED from C:\Users\Carlita\AndroidStudioProjects\TestProject\SaveTheDate\app\src\main\AndroidManifest.xml:25:19-56
+activity#com.example.savethedate.Controllers.HomeView
+ADDED from C:\Users\Carlita\AndroidStudioProjects\TestProject\SaveTheDate\app\src\main\AndroidManifest.xml:26:9-58
+	android:name
+		ADDED from C:\Users\Carlita\AndroidStudioProjects\TestProject\SaveTheDate\app\src\main\AndroidManifest.xml:26:19-55
+activity#com.example.savethedate.Controllers.ProfileView
+ADDED from C:\Users\Carlita\AndroidStudioProjects\TestProject\SaveTheDate\app\src\main\AndroidManifest.xml:27:9-60
+	android:name
+		ADDED from C:\Users\Carlita\AndroidStudioProjects\TestProject\SaveTheDate\app\src\main\AndroidManifest.xml:27:19-58
+activity#com.example.savethedate.Controllers.EditProfile
+ADDED from C:\Users\Carlita\AndroidStudioProjects\TestProject\SaveTheDate\app\src\main\AndroidManifest.xml:28:9-60
+	android:name
+		ADDED from C:\Users\Carlita\AndroidStudioProjects\TestProject\SaveTheDate\app\src\main\AndroidManifest.xml:28:19-58
+activity#com.example.savethedate.Controllers.ViewCorrespondingEvent
+ADDED from C:\Users\Carlita\AndroidStudioProjects\TestProject\SaveTheDate\app\src\main\AndroidManifest.xml:29:9-71
+	android:name
+		ADDED from C:\Users\Carlita\AndroidStudioProjects\TestProject\SaveTheDate\app\src\main\AndroidManifest.xml:29:19-69
+activity#com.example.savethedate.Controllers.ViewCorrespondingService
+ADDED from C:\Users\Carlita\AndroidStudioProjects\TestProject\SaveTheDate\app\src\main\AndroidManifest.xml:30:9-73
+	android:name
+		ADDED from C:\Users\Carlita\AndroidStudioProjects\TestProject\SaveTheDate\app\src\main\AndroidManifest.xml:30:19-71
+activity#com.example.savethedate.Controllers.CreateEventView
+ADDED from C:\Users\Carlita\AndroidStudioProjects\TestProject\SaveTheDate\app\src\main\AndroidManifest.xml:31:9-64
+	android:name
+		ADDED from C:\Users\Carlita\AndroidStudioProjects\TestProject\SaveTheDate\app\src\main\AndroidManifest.xml:31:19-62
+activity#com.example.savethedate.Controllers.ServiceReservationsForEvent
+ADDED from C:\Users\Carlita\AndroidStudioProjects\TestProject\SaveTheDate\app\src\main\AndroidManifest.xml:32:9-76
+	android:name
+		ADDED from C:\Users\Carlita\AndroidStudioProjects\TestProject\SaveTheDate\app\src\main\AndroidManifest.xml:32:19-74
+activity#com.example.savethedate.Controllers.ChangePasswordView
+ADDED from C:\Users\Carlita\AndroidStudioProjects\TestProject\SaveTheDate\app\src\main\AndroidManifest.xml:33:9-67
+	android:name
+		ADDED from C:\Users\Carlita\AndroidStudioProjects\TestProject\SaveTheDate\app\src\main\AndroidManifest.xml:33:19-65
+activity#com.example.savethedate.Controllers.ServicesListView
+ADDED from C:\Users\Carlita\AndroidStudioProjects\TestProject\SaveTheDate\app\src\main\AndroidManifest.xml:34:9-65
+	android:name
+		ADDED from C:\Users\Carlita\AndroidStudioProjects\TestProject\SaveTheDate\app\src\main\AndroidManifest.xml:34:19-63
+activity#com.example.savethedate.Controllers.ConfirmServicesView
+ADDED from C:\Users\Carlita\AndroidStudioProjects\TestProject\SaveTheDate\app\src\main\AndroidManifest.xml:35:9-68
+	android:name
+		ADDED from C:\Users\Carlita\AndroidStudioProjects\TestProject\SaveTheDate\app\src\main\AndroidManifest.xml:35:19-66
+activity#com.example.savethedate.Controllers.OtherProfileView
+ADDED from C:\Users\Carlita\AndroidStudioProjects\TestProject\SaveTheDate\app\src\main\AndroidManifest.xml:36:9-65
+	android:name
+		ADDED from C:\Users\Carlita\AndroidStudioProjects\TestProject\SaveTheDate\app\src\main\AndroidManifest.xml:36:19-63
+activity#com.example.savethedate.Controllers.SignUpView
+ADDED from C:\Users\Carlita\AndroidStudioProjects\TestProject\SaveTheDate\app\src\main\AndroidManifest.xml:37:9-59
+	android:name
+		ADDED from C:\Users\Carlita\AndroidStudioProjects\TestProject\SaveTheDate\app\src\main\AndroidManifest.xml:37:19-57
+activity#com.example.savethedate.Controllers.SignUpViewNext
+ADDED from C:\Users\Carlita\AndroidStudioProjects\TestProject\SaveTheDate\app\src\main\AndroidManifest.xml:38:9-63
+	android:name
+		ADDED from C:\Users\Carlita\AndroidStudioProjects\TestProject\SaveTheDate\app\src\main\AndroidManifest.xml:38:19-61
+activity#com.example.savethedate.Controllers.CreateServiceView
+ADDED from C:\Users\Carlita\AndroidStudioProjects\TestProject\SaveTheDate\app\src\main\AndroidManifest.xml:39:9-66
+	android:name
+		ADDED from C:\Users\Carlita\AndroidStudioProjects\TestProject\SaveTheDate\app\src\main\AndroidManifest.xml:39:19-64
+activity#com.example.savethedate.Controllers.ServiceView
+ADDED from C:\Users\Carlita\AndroidStudioProjects\TestProject\SaveTheDate\app\src\main\AndroidManifest.xml:40:9-60
+	android:name
+		ADDED from C:\Users\Carlita\AndroidStudioProjects\TestProject\SaveTheDate\app\src\main\AndroidManifest.xml:40:19-58
+activity#com.example.savethedate.Controllers.EditEventView
+ADDED from C:\Users\Carlita\AndroidStudioProjects\TestProject\SaveTheDate\app\src\main\AndroidManifest.xml:41:9-62
+	android:name
+		ADDED from C:\Users\Carlita\AndroidStudioProjects\TestProject\SaveTheDate\app\src\main\AndroidManifest.xml:41:19-60
+activity#com.example.savethedate.Controllers.EditServiceView
+ADDED from C:\Users\Carlita\AndroidStudioProjects\TestProject\SaveTheDate\app\src\main\AndroidManifest.xml:42:9-64
+	android:name
+		ADDED from C:\Users\Carlita\AndroidStudioProjects\TestProject\SaveTheDate\app\src\main\AndroidManifest.xml:42:19-62
+activity#com.example.savethedate.Controllers.ShowEventReviews
+ADDED from C:\Users\Carlita\AndroidStudioProjects\TestProject\SaveTheDate\app\src\main\AndroidManifest.xml:43:9-65
+	android:name
+		ADDED from C:\Users\Carlita\AndroidStudioProjects\TestProject\SaveTheDate\app\src\main\AndroidManifest.xml:43:19-63
+activity#com.example.savethedate.Controllers.ShowServiceReviews
+ADDED from C:\Users\Carlita\AndroidStudioProjects\TestProject\SaveTheDate\app\src\main\AndroidManifest.xml:44:9-67
+	android:name
+		ADDED from C:\Users\Carlita\AndroidStudioProjects\TestProject\SaveTheDate\app\src\main\AndroidManifest.xml:44:19-65
+activity#com.example.savethedate.Controllers.ViewAllReservations
+ADDED from C:\Users\Carlita\AndroidStudioProjects\TestProject\SaveTheDate\app\src\main\AndroidManifest.xml:45:9-68
+	android:name
+		ADDED from C:\Users\Carlita\AndroidStudioProjects\TestProject\SaveTheDate\app\src\main\AndroidManifest.xml:45:19-66
+activity#com.example.savethedate.Controllers.HomeView2
+ADDED from C:\Users\Carlita\AndroidStudioProjects\TestProject\SaveTheDate\app\src\main\AndroidManifest.xml:46:9-58
+	android:name
+		ADDED from C:\Users\Carlita\AndroidStudioProjects\TestProject\SaveTheDate\app\src\main\AndroidManifest.xml:46:19-56
+activity#com.example.savethedate.Controllers.CancelServiceReservation
+ADDED from C:\Users\Carlita\AndroidStudioProjects\TestProject\SaveTheDate\app\src\main\AndroidManifest.xml:47:9-73
+	android:name
+		ADDED from C:\Users\Carlita\AndroidStudioProjects\TestProject\SaveTheDate\app\src\main\AndroidManifest.xml:47:19-71
+activity#com.example.savethedate.Controllers.ViewAllServiceReservations
+ADDED from C:\Users\Carlita\AndroidStudioProjects\TestProject\SaveTheDate\app\src\main\AndroidManifest.xml:48:9-75
+	android:name
+		ADDED from C:\Users\Carlita\AndroidStudioProjects\TestProject\SaveTheDate\app\src\main\AndroidManifest.xml:48:19-73
+activity#com.example.savethedate.Controllers.CancelEventReservation
+ADDED from C:\Users\Carlita\AndroidStudioProjects\TestProject\SaveTheDate\app\src\main\AndroidManifest.xml:49:9-71
+	android:name
+		ADDED from C:\Users\Carlita\AndroidStudioProjects\TestProject\SaveTheDate\app\src\main\AndroidManifest.xml:49:19-69
+uses-sdk
+INJECTED from C:\Users\Carlita\AndroidStudioProjects\TestProject\SaveTheDate\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Users\Carlita\AndroidStudioProjects\TestProject\SaveTheDate\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\Carlita\AndroidStudioProjects\TestProject\SaveTheDate\app\src\main\AndroidManifest.xml
+MERGED from [com.karumi:dexter:6.0.0] C:\Users\Carlita\.gradle\caches\transforms-2\files-2.1\d16818fb523b545fa829b9679790384c\AndroidManifest.xml:22:5-24:41
+MERGED from [com.karumi:dexter:6.0.0] C:\Users\Carlita\.gradle\caches\transforms-2\files-2.1\d16818fb523b545fa829b9679790384c\AndroidManifest.xml:22:5-24:41
+MERGED from [com.github.sephiroth74:NumberSlidingPicker:1.0.3] C:\Users\Carlita\.gradle\caches\transforms-2\files-2.1\b4f32f21e6c16c94646912494c3720b6\AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.sephiroth74:NumberSlidingPicker:1.0.3] C:\Users\Carlita\.gradle\caches\transforms-2\files-2.1\b4f32f21e6c16c94646912494c3720b6\AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.HITGIF:TextFieldBoxes:1.4.4] C:\Users\Carlita\.gradle\caches\transforms-2\files-2.1\5ac4c566f05699887221856c4eddd8c1\AndroidManifest.xml:5:5-7:41
+MERGED from [com.github.HITGIF:TextFieldBoxes:1.4.4] C:\Users\Carlita\.gradle\caches\transforms-2\files-2.1\5ac4c566f05699887221856c4eddd8c1\AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.android.material:material:1.0.0] C:\Users\Carlita\.gradle\caches\transforms-2\files-2.1\8a88217a8bf806edac6c52ad2543a34b\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.0.0] C:\Users\Carlita\.gradle\caches\transforms-2\files-2.1\8a88217a8bf806edac6c52ad2543a34b\AndroidManifest.xml:20:5-44
+MERGED from [me.zhanghai.android.materialratingbar:library:1.4.0] C:\Users\Carlita\.gradle\caches\transforms-2\files-2.1\6ae76fd30bbe0debaeb6b6c77cedad5d\AndroidManifest.xml:11:5-13:41
+MERGED from [me.zhanghai.android.materialratingbar:library:1.4.0] C:\Users\Carlita\.gradle\caches\transforms-2\files-2.1\6ae76fd30bbe0debaeb6b6c77cedad5d\AndroidManifest.xml:11:5-13:41
+MERGED from [com.github.psinetron:slycalendarview:0.0.9] C:\Users\Carlita\.gradle\caches\transforms-2\files-2.1\baf0a7dc6f9cbff1c3d6c30f7a3222dc\AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.psinetron:slycalendarview:0.0.9] C:\Users\Carlita\.gradle\caches\transforms-2\files-2.1\baf0a7dc6f9cbff1c3d6c30f7a3222dc\AndroidManifest.xml:7:5-9:41
+MERGED from [com.ramotion.foldingcell:folding-cell:1.2.3] C:\Users\Carlita\.gradle\caches\transforms-2\files-2.1\ab0e480c1990a0cf6f84fd56432c5b7a\AndroidManifest.xml:7:5-9:41
+MERGED from [com.ramotion.foldingcell:folding-cell:1.2.3] C:\Users\Carlita\.gradle\caches\transforms-2\files-2.1\ab0e480c1990a0cf6f84fd56432c5b7a\AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.drawers:SpinnerDatePicker:2.0.1] C:\Users\Carlita\.gradle\caches\transforms-2\files-2.1\5c56f4bb190c110b8cac3f2f8c9637e1\AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.drawers:SpinnerDatePicker:2.0.1] C:\Users\Carlita\.gradle\caches\transforms-2\files-2.1\5c56f4bb190c110b8cac3f2f8c9637e1\AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.skydoves:powermenu:2.1.2] C:\Users\Carlita\.gradle\caches\transforms-2\files-2.1\ef72d885809212e56b03eb5720097d6d\AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.skydoves:powermenu:2.1.2] C:\Users\Carlita\.gradle\caches\transforms-2\files-2.1\ef72d885809212e56b03eb5720097d6d\AndroidManifest.xml:7:5-9:41
+MERGED from [com.stepstone.apprating:app-rating:2.3.1] C:\Users\Carlita\.gradle\caches\transforms-2\files-2.1\93101e2278c819cd860c2a07577ce4be\AndroidManifest.xml:7:5-9:41
+MERGED from [com.stepstone.apprating:app-rating:2.3.1] C:\Users\Carlita\.gradle\caches\transforms-2\files-2.1\93101e2278c819cd860c2a07577ce4be\AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.sephiroth74:android-target-tooltip:v2.0.4] C:\Users\Carlita\.gradle\caches\transforms-2\files-2.1\989b3c1b0e416b4a005cd1d94b5b401a\AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.sephiroth74:android-target-tooltip:v2.0.4] C:\Users\Carlita\.gradle\caches\transforms-2\files-2.1\989b3c1b0e416b4a005cd1d94b5b401a\AndroidManifest.xml:7:5-9:41
+MERGED from [androidx.appcompat:appcompat:1.1.0] C:\Users\Carlita\.gradle\caches\transforms-2\files-2.1\9032e52b2a72f30b7f44fc37e2b19e13\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat:1.1.0] C:\Users\Carlita\.gradle\caches\transforms-2\files-2.1\9032e52b2a72f30b7f44fc37e2b19e13\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\Carlita\.gradle\caches\transforms-2\files-2.1\09fdea2437d852190d979a9dc5d62662\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\Carlita\.gradle\caches\transforms-2\files-2.1\09fdea2437d852190d979a9dc5d62662\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\Carlita\.gradle\caches\transforms-2\files-2.1\69c892de129db8cc86553f931d3e9761\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\Carlita\.gradle\caches\transforms-2\files-2.1\69c892de129db8cc86553f931d3e9761\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\Carlita\.gradle\caches\transforms-2\files-2.1\1af3b780c525152c8fd4e8c66ee2edf2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\Carlita\.gradle\caches\transforms-2\files-2.1\1af3b780c525152c8fd4e8c66ee2edf2\AndroidManifest.xml:20:5-44
+MERGED from [de.hdodenhof:circleimageview:3.0.1] C:\Users\Carlita\.gradle\caches\transforms-2\files-2.1\0d4580d220d8d22fdd2f6d8367bff6d4\AndroidManifest.xml:5:5-7:41
+MERGED from [de.hdodenhof:circleimageview:3.0.1] C:\Users\Carlita\.gradle\caches\transforms-2\files-2.1\0d4580d220d8d22fdd2f6d8367bff6d4\AndroidManifest.xml:5:5-7:41
+MERGED from [jp.wasabeef:blurry:3.0.0] C:\Users\Carlita\.gradle\caches\transforms-2\files-2.1\c4ddb49e0ac707c97cb16492e30893b5\AndroidManifest.xml:5:5-7:41
+MERGED from [jp.wasabeef:blurry:3.0.0] C:\Users\Carlita\.gradle\caches\transforms-2\files-2.1\c4ddb49e0ac707c97cb16492e30893b5\AndroidManifest.xml:5:5-7:41
+MERGED from [com.codesgood:justifiedtextview:1.1.0] C:\Users\Carlita\.gradle\caches\transforms-2\files-2.1\8d00f648a5bcaf56fe32099ade02ecde\AndroidManifest.xml:7:5-9:41
+MERGED from [com.codesgood:justifiedtextview:1.1.0] C:\Users\Carlita\.gradle\caches\transforms-2\files-2.1\8d00f648a5bcaf56fe32099ade02ecde\AndroidManifest.xml:7:5-9:41
+MERGED from [com.nightonke:boommenu:2.1.1] C:\Users\Carlita\.gradle\caches\transforms-2\files-2.1\ce31f4f565ab7243f1e7c8692c2b9a9b\AndroidManifest.xml:7:5-9:41
+MERGED from [com.nightonke:boommenu:2.1.1] C:\Users\Carlita\.gradle\caches\transforms-2\files-2.1\ce31f4f565ab7243f1e7c8692c2b9a9b\AndroidManifest.xml:7:5-9:41
+MERGED from [com.jaredrummler:material-spinner:1.3.1] C:\Users\Carlita\.gradle\caches\transforms-2\files-2.1\5ac7c993fb7b41a4c30812609de8d9a6\AndroidManifest.xml:5:5-7:41
+MERGED from [com.jaredrummler:material-spinner:1.3.1] C:\Users\Carlita\.gradle\caches\transforms-2\files-2.1\5ac7c993fb7b41a4c30812609de8d9a6\AndroidManifest.xml:5:5-7:41
+MERGED from [com.github.anzaizai:EasySwipeMenuLayout:1.1.4] C:\Users\Carlita\.gradle\caches\transforms-2\files-2.1\0b6d44a5a4aa4dee8e3bc62f566a9697\AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.anzaizai:EasySwipeMenuLayout:1.1.4] C:\Users\Carlita\.gradle\caches\transforms-2\files-2.1\0b6d44a5a4aa4dee8e3bc62f566a9697\AndroidManifest.xml:7:5-9:41
+MERGED from [androidx.fragment:fragment:1.1.0] C:\Users\Carlita\.gradle\caches\transforms-2\files-2.1\8bcd8ed450fc55798ddfe7fdcb4bedea\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.1.0] C:\Users\Carlita\.gradle\caches\transforms-2\files-2.1\8bcd8ed450fc55798ddfe7fdcb4bedea\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.1.0] C:\Users\Carlita\.gradle\caches\transforms-2\files-2.1\fde23ec6ede3f1a0af9798ad8f727ad2\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.1.0] C:\Users\Carlita\.gradle\caches\transforms-2\files-2.1\fde23ec6ede3f1a0af9798ad8f727ad2\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.0.0] C:\Users\Carlita\.gradle\caches\transforms-2\files-2.1\33affb1eaaf08879e522e7697de0549b\AndroidManifest.xml:20:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.0.0] C:\Users\Carlita\.gradle\caches\transforms-2\files-2.1\33affb1eaaf08879e522e7697de0549b\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\Carlita\.gradle\caches\transforms-2\files-2.1\f53e70411dbfa4271a08d21f7ebad662\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\Carlita\.gradle\caches\transforms-2\files-2.1\f53e70411dbfa4271a08d21f7ebad662\AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\Carlita\.gradle\caches\transforms-2\files-2.1\eed0cbc419a3c4dff2e3121bf8e4066b\AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\Carlita\.gradle\caches\transforms-2\files-2.1\eed0cbc419a3c4dff2e3121bf8e4066b\AndroidManifest.xml:20:5-44
+MERGED from [androidx.media:media:1.0.0] C:\Users\Carlita\.gradle\caches\transforms-2\files-2.1\a07d33766ef0d65881327681344b66eb\AndroidManifest.xml:20:5-44
+MERGED from [androidx.media:media:1.0.0] C:\Users\Carlita\.gradle\caches\transforms-2\files-2.1\a07d33766ef0d65881327681344b66eb\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\Carlita\.gradle\caches\transforms-2\files-2.1\77c1c527e4cf2c859cade01763f77676\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\Carlita\.gradle\caches\transforms-2\files-2.1\77c1c527e4cf2c859cade01763f77676\AndroidManifest.xml:20:5-44
+MERGED from [androidx.transition:transition:1.0.0] C:\Users\Carlita\.gradle\caches\transforms-2\files-2.1\0863dbd7de94622f9f23a45cb859c635\AndroidManifest.xml:20:5-44
+MERGED from [androidx.transition:transition:1.0.0] C:\Users\Carlita\.gradle\caches\transforms-2\files-2.1\0863dbd7de94622f9f23a45cb859c635\AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core-ktx:1.1.0-alpha05] C:\Users\Carlita\.gradle\caches\transforms-2\files-2.1\ca8758248ee9c790440c905a12a7cb95\AndroidManifest.xml:5:5-44
+MERGED from [androidx.core:core-ktx:1.1.0-alpha05] C:\Users\Carlita\.gradle\caches\transforms-2\files-2.1\ca8758248ee9c790440c905a12a7cb95\AndroidManifest.xml:5:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\Carlita\.gradle\caches\transforms-2\files-2.1\6a21fd0478522f038973b9b099fe512b\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\Carlita\.gradle\caches\transforms-2\files-2.1\6a21fd0478522f038973b9b099fe512b\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\Carlita\.gradle\caches\transforms-2\files-2.1\b213765dbdad6a0189c59a40ccf1b1e1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\Carlita\.gradle\caches\transforms-2\files-2.1\b213765dbdad6a0189c59a40ccf1b1e1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.0.0] C:\Users\Carlita\.gradle\caches\transforms-2\files-2.1\6cea14099cb500715fc2e8a5f9c75f75\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.0.0] C:\Users\Carlita\.gradle\caches\transforms-2\files-2.1\6cea14099cb500715fc2e8a5f9c75f75\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\Carlita\.gradle\caches\transforms-2\files-2.1\d5e5aa521251c4072b6049f887870f76\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\Carlita\.gradle\caches\transforms-2\files-2.1\d5e5aa521251c4072b6049f887870f76\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\Carlita\.gradle\caches\transforms-2\files-2.1\507181a21c3704e31d994b61e6843311\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\Carlita\.gradle\caches\transforms-2\files-2.1\507181a21c3704e31d994b61e6843311\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] C:\Users\Carlita\.gradle\caches\transforms-2\files-2.1\c24fa042ada0bee9b5cf0df3c8f324b3\AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] C:\Users\Carlita\.gradle\caches\transforms-2\files-2.1\c24fa042ada0bee9b5cf0df3c8f324b3\AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\Carlita\.gradle\caches\transforms-2\files-2.1\f939a0b37e07b679541c9d2d288aff4a\AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\Carlita\.gradle\caches\transforms-2\files-2.1\f939a0b37e07b679541c9d2d288aff4a\AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\Carlita\.gradle\caches\transforms-2\files-2.1\977b8820fdf1501741519f38f280a80c\AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\Carlita\.gradle\caches\transforms-2\files-2.1\977b8820fdf1501741519f38f280a80c\AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\Carlita\.gradle\caches\transforms-2\files-2.1\a830d9a8db98a148f875b0ee9581ae5a\AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\Carlita\.gradle\caches\transforms-2\files-2.1\a830d9a8db98a148f875b0ee9581ae5a\AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\Carlita\.gradle\caches\transforms-2\files-2.1\213e8321c3933b52197dd944499dfaa2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\Carlita\.gradle\caches\transforms-2\files-2.1\213e8321c3933b52197dd944499dfaa2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.1.0] C:\Users\Carlita\.gradle\caches\transforms-2\files-2.1\cafebd160b924f7d24b8c3a77467d7a9\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.1.0] C:\Users\Carlita\.gradle\caches\transforms-2\files-2.1\cafebd160b924f7d24b8c3a77467d7a9\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\Carlita\.gradle\caches\transforms-2\files-2.1\ff2ab4d6b46c9e6494eeaeba2b032e0b\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\Carlita\.gradle\caches\transforms-2\files-2.1\ff2ab4d6b46c9e6494eeaeba2b032e0b\AndroidManifest.xml:20:5-44
+MERGED from [com.github.sephiroth74:AndroidUIGestureRecognizer:v1.2.7] C:\Users\Carlita\.gradle\caches\transforms-2\files-2.1\6ca908a5bc73f2be7780832f8ef84153\AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.sephiroth74:AndroidUIGestureRecognizer:v1.2.7] C:\Users\Carlita\.gradle\caches\transforms-2\files-2.1\6ca908a5bc73f2be7780832f8ef84153\AndroidManifest.xml:7:5-9:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\Carlita\.gradle\caches\transforms-2\files-2.1\302a8805016ba148909983a13e32c631\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\Carlita\.gradle\caches\transforms-2\files-2.1\302a8805016ba148909983a13e32c631\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\Carlita\.gradle\caches\transforms-2\files-2.1\363073d6a509380134eb6f0c26b02c24\AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\Carlita\.gradle\caches\transforms-2\files-2.1\363073d6a509380134eb6f0c26b02c24\AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\Carlita\.gradle\caches\transforms-2\files-2.1\e47dba45407eac7eddf1fe1237674644\AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\Carlita\.gradle\caches\transforms-2\files-2.1\e47dba45407eac7eddf1fe1237674644\AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] C:\Users\Carlita\.gradle\caches\transforms-2\files-2.1\e88e20981c7c1a23ed9df43ad5ea9fd6\AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] C:\Users\Carlita\.gradle\caches\transforms-2\files-2.1\e88e20981c7c1a23ed9df43ad5ea9fd6\AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\Carlita\.gradle\caches\transforms-2\files-2.1\978d0f6429c29091391b96ad5f125ae4\AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\Carlita\.gradle\caches\transforms-2\files-2.1\978d0f6429c29091391b96ad5f125ae4\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0] C:\Users\Carlita\.gradle\caches\transforms-2\files-2.1\37dff403666748bcaee491745fbb349b\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0] C:\Users\Carlita\.gradle\caches\transforms-2\files-2.1\37dff403666748bcaee491745fbb349b\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] C:\Users\Carlita\.gradle\caches\transforms-2\files-2.1\015d687f0b662ab9db6243666b81d251\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] C:\Users\Carlita\.gradle\caches\transforms-2\files-2.1\015d687f0b662ab9db6243666b81d251\AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate:1.0.0] C:\Users\Carlita\.gradle\caches\transforms-2\files-2.1\9246e247a3643332518fafb48a3bfcdb\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.0.0] C:\Users\Carlita\.gradle\caches\transforms-2\files-2.1\9246e247a3643332518fafb48a3bfcdb\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\Carlita\.gradle\caches\transforms-2\files-2.1\07ba1fa362047c558f6f3189631fbb8c\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\Carlita\.gradle\caches\transforms-2\files-2.1\07ba1fa362047c558f6f3189631fbb8c\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\Carlita\.gradle\caches\transforms-2\files-2.1\8a5402df34569d69461c5cdc9c1ceb4b\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\Carlita\.gradle\caches\transforms-2\files-2.1\8a5402df34569d69461c5cdc9c1ceb4b\AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\Carlita\.gradle\caches\transforms-2\files-2.1\ebb201dbf93ef8e445c436b928d8e944\AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\Carlita\.gradle\caches\transforms-2\files-2.1\ebb201dbf93ef8e445c436b928d8e944\AndroidManifest.xml:20:5-44
+MERGED from [io.reactivex.rxjava2:rxandroid:2.1.0] C:\Users\Carlita\.gradle\caches\transforms-2\files-2.1\954b17447a7b2630b4375d880e262d70\AndroidManifest.xml:18:5-43
+MERGED from [io.reactivex.rxjava2:rxandroid:2.1.0] C:\Users\Carlita\.gradle\caches\transforms-2\files-2.1\954b17447a7b2630b4375d880e262d70\AndroidManifest.xml:18:5-43
+MERGED from [com.jakewharton.timber:timber:4.7.1] C:\Users\Carlita\.gradle\caches\transforms-2\files-2.1\9b10e58d10c704635f955bd53ef863f4\AndroidManifest.xml:5:5-43
+MERGED from [com.jakewharton.timber:timber:4.7.1] C:\Users\Carlita\.gradle\caches\transforms-2\files-2.1\9b10e58d10c704635f955bd53ef863f4\AndroidManifest.xml:5:5-43
+INJECTED from C:\Users\Carlita\AndroidStudioProjects\TestProject\SaveTheDate\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\Carlita\AndroidStudioProjects\TestProject\SaveTheDate\app\src\main\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from C:\Users\Carlita\AndroidStudioProjects\TestProject\SaveTheDate\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Carlita\AndroidStudioProjects\TestProject\SaveTheDate\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Carlita\AndroidStudioProjects\TestProject\SaveTheDate\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\Users\Carlita\AndroidStudioProjects\TestProject\SaveTheDate\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Carlita\AndroidStudioProjects\TestProject\SaveTheDate\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Carlita\AndroidStudioProjects\TestProject\SaveTheDate\app\src\main\AndroidManifest.xml
+activity#com.karumi.dexter.DexterActivity
+ADDED from [com.karumi:dexter:6.0.0] C:\Users\Carlita\.gradle\caches\transforms-2\files-2.1\d16818fb523b545fa829b9679790384c\AndroidManifest.xml:27:9-29:72
+	android:theme
+		ADDED from [com.karumi:dexter:6.0.0] C:\Users\Carlita\.gradle\caches\transforms-2\files-2.1\d16818fb523b545fa829b9679790384c\AndroidManifest.xml:29:13-69
+	android:name
+		ADDED from [com.karumi:dexter:6.0.0] C:\Users\Carlita\.gradle\caches\transforms-2\files-2.1\d16818fb523b545fa829b9679790384c\AndroidManifest.xml:28:13-60

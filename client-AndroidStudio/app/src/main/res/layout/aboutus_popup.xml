@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="#ffffff">
+
+    <TextView
+        android:text="About Us"
+        android:layout_marginTop="20dp"
+        android:textStyle="bold"
+        android:textColor="#8e24b5"
+        android:layout_gravity="center_horizontal"
+        android:textSize="25dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <com.codesgood.views.JustifiedTextView
+        android:text="Save the date is an event planning system, where users can see upcoming events, organize future events and review previous events while companies can offer services in order to fit the organizer's needs to create successfull occasions , benefit the service providers and inform others about the opportunities "
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:padding="10dp"
+        android:textColor="#000000"
+        android:textSize="18dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end"
+        android:textColor="#000000"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="10dp"
+        android:text="Carlita Khawand 55028"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="10dp"
+        android:textColor="#000000"
+        android:text="Yorgo Wakim 54689"/>
+
+</LinearLayout>

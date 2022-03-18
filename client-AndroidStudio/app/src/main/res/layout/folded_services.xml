@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_height="match_parent"
+    android:clipChildren="false"
+    android:clipToPadding="false">
+
+    <com.ramotion.foldingcell.FoldingCell
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/folding_cell"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:animationDuration="300"
+        android:layout_margin="10dp">
+        ​
+        <FrameLayout
+            android:id="@+id/cell_content_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#ffffff"
+            android:visibility="gone">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/name"
+                    android:layout_marginTop="20dp"
+                    android:layout_width="match_parent"
+                    android:textAlignment="center"
+                    android:layout_marginBottom="10dp"
+                    android:layout_height="wrap_content"
+                    android:textColor="#6168b5"
+                    android:textSize="30dp"
+                    android:text="Name of Service"/>
+
+                <ImageView
+                    android:id="@+id/imgView"
+                    android:layout_below="@id/name"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:adjustViewBounds="true"
+                    android:layout_marginBottom="10dp"
+                    android:src="@drawable/emptyimage" />
+
+                <com.codesgood.views.JustifiedTextView
+                    android:id="@+id/desc"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/imgView"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:textColor="#000000"
+                    android:textSize="18dp"
+                    android:text="The description of the best sky night ever!! It was a wonderful night just perfect!! No words could ever describe how lovely it was. Super amazing and awesome!!!!"/>
+
+                <ImageView
+                    android:id="@+id/location"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_below="@id/desc"
+                    android:layout_margin="10dp"
+                    android:background="@drawable/location"/>
+
+                <TextView
+                    android:id="@+id/loc"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Fanar, Lebanon"
+                    android:textColor="#000000"
+                    android:layout_marginTop="15dp"
+                    android:layout_toRightOf="@id/location"
+                    android:textSize="17dp"
+                    android:layout_below="@id/desc"/>
+
+                <TextView
+                    android:id="@+id/type"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Type: Restaurant "
+                    android:layout_below="@id/loc"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:textSize="17dp"
+                    android:textColor="#000000" />
+
+                <TextView
+                    android:id="@+id/duration"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Hours : 9 AM -> 10 PM"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:textSize="17dp"
+                    android:textColor="#000000"
+                    android:layout_below="@id/type"/>
+
+                <ImageView
+                    android:id="@+id/phone"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_below="@id/duration"
+                    android:layout_margin="10dp"
+                    android:background="@drawable/phone"/>
+
+                <TextView
+                    android:id="@+id/phonedit"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="+961 123 456"
+                    android:textColor="#000000"
+                    android:layout_marginTop="15dp"
+                    android:layout_toRightOf="@id/location"
+                    android:textSize="17dp"
+                    android:layout_below="@id/duration"/>
+            </RelativeLayout>
+
+        </FrameLayout>
+        ​
+        <FrameLayout
+            android:id="@+id/cell_title_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/gradient">
+
+            <TextView
+                android:id="@+id/titlename"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:textSize="20dp"
+                android:padding="30dp"
+                android:text="Service name"
+                android:textColor="#ffffff"/>
+        </FrameLayout>
+        ​
+    </com.ramotion.foldingcell.FoldingCell>
+
+</LinearLayout>

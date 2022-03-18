@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff">
+
+    <TextView
+        android:id="@+id/contactUs"
+        android:text="Contact Us"
+        android:layout_marginTop="20dp"
+        android:textStyle="bold"
+        android:textColor="#8e24b5"
+        android:textAlignment="center"
+        android:textSize="25dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <ImageView
+        android:id="@+id/email"
+        android:layout_margin="20dp"
+        android:background="@drawable/email"
+        android:layout_below="@id/contactUs"
+        android:layout_width="25dp"
+        android:layout_height="25dp" />
+
+    <TextView
+        android:layout_toRightOf="@id/email"
+        android:layout_below="@id/contactUs"
+        android:text="save_the_date@gmail.com"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="10dp"
+        android:textColor="#000000"
+        android:textSize="15dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <ImageView
+        android:id="@+id/phone"
+        android:layout_margin="20dp"
+        android:background="@drawable/phone"
+        android:layout_below="@id/email"
+        android:layout_width="25dp"
+        android:layout_height="25dp" />
+
+    <TextView
+        android:layout_toRightOf="@id/phone"
+        android:layout_below="@id/email"
+        android:text="+1 425 555 0109"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="10dp"
+        android:textColor="#000000"
+        android:textSize="15dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <ImageView
+        android:id="@+id/location"
+        android:layout_margin="20dp"
+        android:background="@drawable/location"
+        android:layout_below="@id/phone"
+        android:layout_width="25dp"
+        android:layout_height="25dp" />
+
+    <TextView
+        android:layout_toRightOf="@id/location"
+        android:layout_below="@id/phone"
+        android:text="Beirut, Lebanon"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="10dp"
+        android:textColor="#000000"
+        android:textSize="15dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+</RelativeLayout>

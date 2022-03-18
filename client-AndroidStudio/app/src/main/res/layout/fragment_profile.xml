@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Controllers.ProfileFragment">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/edit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/edit"
+            android:visibility="invisible"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="20dp"
+            android:layout_alignParentRight="true"/>
+
+        <TableLayout
+            android:layout_below="@id/edit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/phone"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/edit"
+                    android:text="Phone number "
+                    android:textSize="16dp"
+                    android:layout_marginTop="30dp"
+                    android:layout_marginLeft="20dp"/>
+
+                <TextView
+                    android:id="@+id/phonedit"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="#6168b5"
+                    android:textSize="16dp"
+                    android:layout_marginLeft="60dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_below="@+id/edit"
+                    android:layout_marginTop="30dp"
+                    android:layout_toRightOf="@id/phone"/>
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:id="@+id/email"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Email "
+                    android:textSize="16dp"
+                    android:layout_below="@id/phonedit"
+                    android:layout_marginTop="40dp"
+                    android:layout_marginLeft="20dp"/>
+
+                <TextView
+                    android:id="@+id/emailedit"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="40dp"
+                    android:textSize="16dp"
+                    android:layout_marginLeft="60dp"
+                    android:layout_marginRight="20dp"
+                    android:textColor="#6168b5"
+                    android:layout_below="@id/phonedit"
+                    android:layout_toRightOf="@id/email"/>
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:id="@+id/add"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Address "
+                    android:textSize="16dp"
+                    android:layout_below="@id/emailedit"
+                    android:layout_marginTop="40dp"
+                    android:layout_marginLeft="20dp"/>
+
+                <TextView
+                    android:id="@+id/addedit"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="60dp"
+                    android:textSize="16dp"
+                    android:layout_marginTop="40dp"
+                    android:layout_marginRight="20dp"
+                    android:textColor="#6168b5"
+                    android:layout_below="@id/emailedit"
+                    android:layout_toRightOf="@id/add"/>
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/birth"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Birthday "
+                    android:textSize="16dp"
+                    android:layout_below="@id/addedit"
+                    android:layout_marginTop="40dp"
+                    android:layout_marginLeft="20dp"/>
+
+                <TextView
+                    android:id="@+id/birthedit"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="60dp"
+                    android:layout_marginRight="20dp"
+                    android:textSize="16dp"
+                    android:layout_marginTop="40dp"
+                    android:layout_below="@id/addedit"
+                    android:textColor="#6168b5"
+                    android:layout_toRightOf="@id/birth"/>
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/gender"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Gender "
+                    android:textSize="16dp"
+                    android:layout_below="@id/addedit"
+                    android:layout_marginTop="40dp"
+                    android:layout_marginLeft="20dp"/>
+
+                <TextView
+                    android:id="@+id/genderedit"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="60dp"
+                    android:layout_marginRight="20dp"
+                    android:textSize="16dp"
+                    android:layout_marginTop="40dp"
+                    android:layout_below="@id/birth"
+                    android:textColor="#6168b5"
+                    android:layout_toRightOf="@id/gender"/>
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/lang"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Languages "
+                    android:textSize="16dp"
+                    android:layout_below="@id/addedit"
+                    android:layout_marginTop="40dp"
+                    android:layout_marginLeft="20dp"/>
+
+                <TextView
+                    android:id="@+id/langedit"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="60dp"
+                    android:layout_marginRight="20dp"
+                    android:textSize="16dp"
+                    android:layout_marginTop="40dp"
+                    android:layout_below="@id/gender"
+                    android:textColor="#6168b5"
+                    android:layout_toRightOf="@id/lang"/>
+
+            </TableRow>
+
+        </TableLayout>
+    </RelativeLayout>
+</FrameLayout>

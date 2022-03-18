@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/gradient"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/backwhite"/>
+
+    <TextView
+        android:id="@+id/savedate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="15dp"
+        android:fontFamily="@font/gv"
+        android:text="Save the date  "
+        android:textColor="#ffffff"
+        android:textSize="45dp" />
+
+    <ScrollView
+        android:layout_below="@id/savedate"
+        android:layout_width="match_parent"
+        android:background="#f2f2f2"
+        android:fillViewport="true"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_below="@id/savedate"
+            android:id="@+id/container"
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_height="match_parent"/>
+    </ScrollView>
+</RelativeLayout>

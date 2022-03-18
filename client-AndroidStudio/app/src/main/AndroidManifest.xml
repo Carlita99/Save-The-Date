@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.savethedate">
+
+    <uses-permission android:name="android.permission.INTERNET"/>
+
+    <application
+        android:usesCleartextTraffic="true"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:hardwareAccelerated="false"
+        android:largeHeap="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Controllers.EventView"/>
+        <activity android:name=".Controllers.LoginView"/>
+        <activity android:name=".Controllers.HomeView" />
+        <activity android:name=".Controllers.ProfileView"/>
+        <activity android:name=".Controllers.EditProfile"/>
+        <activity android:name=".Controllers.ViewCorrespondingEvent"/>
+        <activity android:name=".Controllers.ViewCorrespondingService"/>
+        <activity android:name=".Controllers.CreateEventView"/>
+        <activity android:name=".Controllers.ServiceReservationsForEvent"/>
+        <activity android:name=".Controllers.ChangePasswordView"/>
+        <activity android:name=".Controllers.ServicesListView"/>
+        <activity android:name=".Controllers.ConfirmServicesView"/>
+        <activity android:name=".Controllers.OtherProfileView"/>
+        <activity android:name=".Controllers.SignUpView"/>
+        <activity android:name=".Controllers.SignUpViewNext"/>
+        <activity android:name=".Controllers.CreateServiceView"/>
+        <activity android:name=".Controllers.ServiceView"/>
+        <activity android:name=".Controllers.EditEventView"/>
+        <activity android:name=".Controllers.EditServiceView"/>
+        <activity android:name=".Controllers.ShowEventReviews"/>
+        <activity android:name=".Controllers.ShowServiceReviews"/>
+        <activity android:name=".Controllers.ViewAllReservations"/>
+        <activity android:name=".Controllers.HomeView2"/>
+        <activity android:name=".Controllers.CancelServiceReservation"/>
+        <activity android:name=".Controllers.ViewAllServiceReservations"/>
+        <activity android:name=".Controllers.CancelEventReservation"/>
+    </application>
+
+</manifest>
