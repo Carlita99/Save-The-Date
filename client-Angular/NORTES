@@ -1,0 +1,7 @@
+Provider and organizer Guard
+rejected reservations and confirmed
+
+
+delete res when event is deleted: done
+cant edit or delete event if date has passed
+update event price with reservations (Test edit reservation aka when accepted)

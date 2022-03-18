@@ -1,0 +1,113 @@
+<app-header></app-header>
+<body>
+  <div class="form-container">
+    <form #signUpForm="ngForm" (ngSubmit)="onSubmit(signUpForm)">
+      <h2>
+        Sign Up
+      </h2>
+
+      <div class="horizontal-flex">
+        <input
+          type="text"
+          name="firstName"
+          class="input"
+          placeholder="First Name"
+          ngModel
+          required
+        />
+        <input
+          type="text"
+          name="lastName"
+          class="input"
+          placeholder="Last Name"
+          required
+          ngModel
+        />
+      </div>
+      <input
+        name="email"
+        placeholder="Email address"
+        name="email"
+        class="input"
+        ngModel
+        required
+      />
+      <input
+        type="password"
+        name="password"
+        class="input"
+        placeholder="password"
+        ngModel
+        required
+      />
+      <input
+        type="password"
+        name="confirmPassword"
+        class="input"
+        placeholder="Re-Enter your Password"
+        ngModel
+        required
+      />
+      <input
+        type="text"
+        name="address"
+        class="input"
+        placeholder="Where do you live?"
+        ngModel
+        required
+      />
+      <input
+        type="text"
+        name="phoneNumber"
+        class="input"
+        placeholder="Phone Number"
+        required
+        ngModel
+      />
+      <div>
+        <mat-form-field class="date-input">
+          <input
+            matInput
+            name="birthday"
+            [matDatepicker]="picker"
+            placeholder="Change Your Birthday"
+            ngModel
+          />
+          <mat-datepicker-toggle
+            matSuffix
+            [for]="picker"
+          ></mat-datepicker-toggle>
+          <mat-datepicker #picker></mat-datepicker>
+        </mat-form-field>
+      </div>
+      <div>
+        <mat-radio-group aria-label="Gender" name="gender" ngModel required>
+          <mat-radio-button value="Male" class="radio-button"
+            >Male</mat-radio-button
+          >
+          <mat-radio-button value="Female">Female</mat-radio-button>
+          <mat-radio-button value="Rather not say">
+            Rather Not Say
+          </mat-radio-button>
+        </mat-radio-group>
+        <mat-form-field>
+          <mat-label>Languages</mat-label>
+          <mat-select
+            (change)="selected($event)"
+            [formControl]="languages"
+            multiple
+            ngModel
+            name="languages"
+          >
+            <mat-option
+              *ngFor="let language of languagesList"
+              [value]="language"
+              >{{ language }}</mat-option
+            >
+          </mat-select>
+        </mat-form-field>
+      </div>
+      <button type="submit" class="submit">Sign Up</button>
+    </form>
+  </div>
+</body>

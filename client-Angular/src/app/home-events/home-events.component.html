@@ -1,0 +1,38 @@
+<app-header></app-header>
+<div class="loader" *ngIf="loading"></div>
+<div #container *ngIf="!loading">
+  <mat-grid-list cols="{{ colnum }}" rowHeight="23rem">
+    <mat-grid-tile *ngFor="let event of events">
+      <app-event-card
+        [name]="event.event.name"
+        [description]="event.event.description"
+        [organizer]="event.organizer.organizer_name"
+        [profilePic]="event.organizer.profile_pic"
+        [image]="event.event.pictures"
+        titleLink="{{ '/event/' + event.event.ide }}"
+        [secondaryLink]="TOCHANGETOPROFILE"
+      >
+      </app-event-card>
+    </mat-grid-tile>
+  </mat-grid-list>
+</div>
+<!-- <mat-card class="mat-card">
+      <mat-card-header>
+        <div
+          mat-card-avatar
+          class="avatar"
+          style="--img:url('../../assets/icons/add.png');"
+        ></div>
+        <mat-card-title>Event name</mat-card-title>
+        <mat-card-subtitle>Creator name</mat-card-subtitle>
+      </mat-card-header>
+      <mat-card-content class="mat-card-content">
+        <img
+          mat-card-image
+          src="{{ event.pictures[0] }}"
+          class="img-responsive mat-card-img"
+          alt="unavailable"
+        />
+        <p>{{ event.description }}</p>
+      </mat-card-content> -->
+<!-- </mat-card> -->

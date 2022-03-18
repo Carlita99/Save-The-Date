@@ -1,0 +1,148 @@
+body {
+  background-image: linear-gradient(90deg, #5973ea, #2ebade);
+  display: flex;
+  justify-content: center;
+  height: fit-content;
+  min-height: 100%;
+}
+
+.profilePic {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+
+  border: solid white;
+}
+
+.profilePic-container {
+  display: flex;
+  justify-content: center;
+}
+
+.form-container {
+  width: 600px;
+  margin: 3%;
+  height: fit-content;
+  padding: 2%;
+  border: whitesmoke solid;
+  border-radius: 1em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-content: center;
+}
+
+.form-container h2 {
+  color: white;
+  font-family: serif;
+  align-self: center;
+  display: flex;
+  justify-content: center;
+}
+
+.date-input {
+  margin: 3%;
+  margin-top: 1%;
+  width: 90%;
+  font-weight: 1.2rem;
+  color: white;
+}
+
+mat-radio-group {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.mat-radio-button~.mat-radio-button {
+  color: white;
+}
+
+/* ////////////////////////////////// matdatepicker color changing */
+::ng-deep .mat-focused .mat-form-field-label {
+  /*change color of label*/
+  color: white !important;
+}
+
+::ng-deep.mat-form-field-underline {
+  /*change color of underline*/
+  background-color: white !important;
+}
+
+::ng-deep.mat-form-field-ripple {
+  /*change color of underline when focused*/
+  background-color: white !important;
+}
+
+::ng-deep .mat-form-field-label {
+  /*change color of label*/
+  color: white !important;
+}
+
+mat-datepicker-toggle {
+  color: white !important;
+}
+
+.white-color {
+  color: white;
+}
+
+.white-color:placeholder {
+  color: white;
+}
+
+.horizontal-flex {
+  flex-direction: row;
+  justify-items: space-between;
+}
+
+.horizontal-flex .input {
+  width: 40%;
+}
+
+.submit {
+  background-color: transparent;
+  border: white solid 1px;
+  border-radius: 1.2em;
+  font-size: 1.2em;
+  color: white;
+  width: 90%;
+  margin: 3%;
+}
+
+.submit:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+  align-self: center;
+}
+
+.input {
+  background-color: transparent;
+  border: none;
+  border-bottom: 2px solid rgba(255, 255, 255, 0.8);
+  margin: 3%;
+  width: 90%;
+  font-weight: 1.2rem;
+  color: white;
+}
+
+.input::placeholder {
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.input:focus {
+  border-bottom: 2px solid;
+}
+
+@media (max-width: 750px) {
+  .form-container {
+    width: 400px;
+    height: fit-content;
+
+  }
+
+  mat-radio-group {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
+}

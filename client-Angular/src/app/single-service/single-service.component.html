@@ -1,0 +1,48 @@
+<app-header></app-header>
+<body>
+  <div class="container" *ngIf="service">
+    <h1>{{ service.service.name }}</h1>
+    <p>{{ service.service.typeS }} by: {{ service.provider.provider_name }}</p>
+    <div class="subcontainer">
+      <img src="{{ service.service.pictures }}" />
+      <p>
+        Opens from {{ service.service.opening_hour }} till
+        {{ service.service.closing_hour }}.
+      </p>
+
+      <p>Description: {{ service.service.description }}</p>
+      <p>
+        For further Information: Email:
+        <a href="mailTo:{{ service.provider.email }}">{{
+          service.provider.email
+        }}</a
+        >, Phone Number: {{ service.provider.phone_number }}
+      </p>
+    </div>
+    <a
+      routerLink="{{ '/edit-service/' + service.service.ids }}"
+      class="editLink"
+    >
+      <button
+        type="button"
+        class="edit"
+        *ngIf="user && user.email == service.provider.email"
+      >
+        Edit
+      </button>
+    </a>
+    <a
+      style="margin: 1em;"
+      routerLink="{{ '/my-service-res/' + service.service.ids }}"
+      class="editLink"
+    >
+      <button
+        type="button"
+        class="edit"
+        *ngIf="user && user.email == service.provider.email"
+      >
+        Pending Reservations
+      </button>
+    </a>
+  </div>
+</body>

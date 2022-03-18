@@ -1,0 +1,45 @@
+<div class="header-container">
+  <div class="header-subcontainer">
+    <div class="header-content">
+      <nav routerLink="/">Home</nav>
+    </div>
+    <div class="header-content" *ngIf="isAuth">
+      <nav routerLink="{{ '/profile/' + user.email }}">My Profile</nav>
+    </div>
+
+    <div class="header-content" *ngIf="isAuth" (click)="navigateEvents()">
+      <nav>
+        My Events
+      </nav>
+    </div>
+    <div *ngIf="isAuth" class="header-content" (click)="navigateServices()">
+      <nav>
+        My Services
+      </nav>
+    </div>
+
+    <div class="header-content">
+      <nav routerLink="/events">Upcoming Events</nav>
+    </div>
+
+    <div class="header-content"><nav routerLink="/aboutUs">About Us</nav></div>
+    <div class="header-content">
+      <button
+        class="header-login-button"
+        type="button"
+        (click)="showLogin()"
+        *ngIf="!isAuth"
+      >
+        Login
+      </button>
+      <button
+        class="header-login-button"
+        type="button"
+        (click)="logout()"
+        *ngIf="isAuth"
+      >
+        Logout
+      </button>
+    </div>
+  </div>
+</div>

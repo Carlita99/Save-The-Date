@@ -1,0 +1,134 @@
+<app-header></app-header>
+<body>
+  <form #editEventForm="ngForm" (submit)="onSubmit(editEventForm)">
+    <div class="form-container" *ngIf="event">
+      <input
+        name="eventName"
+        [(ngModel)]="event.event.name"
+        required
+        type="text"
+        placeholder="Event Name"
+        class="input"
+      />
+
+      <mat-form-field style="margin: 3%;">
+        <mat-label>Select the type of your event</mat-label>
+        <mat-select
+          [formControl]="eventControl"
+          name="type"
+          [ngModel]="event.event.typeE"
+        >
+          <mat-option
+            *ngFor="let eventType of eventTypes"
+            [value]="eventType.type"
+            >{{ eventType.type }} - {{ eventType.description }}</mat-option
+          >
+        </mat-select>
+      </mat-form-field>
+
+      <input
+        [ngModel]="event.event.number_of_guests"
+        required
+        type="number"
+        name="nbGuests"
+        placeholder="Approximated number of Guests"
+        class="input"
+      />
+
+      <mat-form-field class="date-input">
+        <input
+          matInput
+          name="date"
+          [matDatepicker]="picker"
+          placeholder="When will the event be held?"
+          [(ngModel)]="date"
+        />
+        <mat-datepicker-toggle matSuffix [for]="picker"></mat-datepicker-toggle>
+        <mat-datepicker #picker></mat-datepicker>
+      </mat-form-field>
+
+      <input
+        [ngModel]="event.event.starting_hour"
+        required
+        min="0"
+        max="24"
+        type="number"
+        name="start"
+        placeholder="When will the event start?"
+        class="input"
+      />
+
+      <input
+        [ngModel]="event.event.duration"
+        required
+        type="number"
+        name="duration"
+        placeholder="How long will it last?"
+        class="input"
+      />
+
+      <input
+        [ngModel]="event.event.description"
+        required
+        type="text"
+        name="desc"
+        placeholder="A brief description about your event"
+        class="input"
+      />
+
+      <input
+        [ngModel]="event.event.highlights"
+        required
+        type="text"
+        name="highlights"
+        placeholder="What is special about your event?"
+        class="input"
+      />
+
+      <img src="{{ imgSrc }}" [hidden]="!imgSrc" class="serviceImg" />
+      <input
+        type="file"
+        required
+        class="input"
+        accept="image/jpeg, image/png, image/jpg"
+        placeholder="Upload a picture for your service"
+        (change)="picChanged($event)"
+      />
+      <div *ngFor="let res of reservedServices" class="reservations">
+        <p>
+          <a target="_blank" routerLink="{{ '/service/' + res.ids }}">
+            {{ res.name }} - {{ res.typeS }}, &nbsp;
+          </a>
+
+          {{ res.description }}
+        </p>
+        <input type="hidden" value="{{ res.ids }}" #id />
+        <button type="button" (click)="remove(id)" class="remove">
+          X
+        </button>
+      </div>
+      <button class="submit" type="button" (click)="add()">
+        Add a Service
+      </button>
+      <mat-form-field style="margin: 3%;" *ngIf="show">
+        <mat-label>Select a service</mat-label>
+        <mat-select
+          (selectionChange)="selected($event)"
+          [formControl]="service"
+          name="service"
+        >
+          <mat-option
+            style="height: fit-content; border-bottom: 1px;"
+            *ngFor="let service of services"
+            [value]="service.ids"
+            ><a target="_blank" routerLink="{{ '/service/' + service.ids }}"
+              >{{ service.name }} - {{ service.typeS }} </a
+            ><br />
+            {{ service.description }}</mat-option
+          >
+        </mat-select>
+      </mat-form-field>
+      <button type="submit" class="submit">Submit</button>
+    </div>
+  </form>
+</body>

@@ -1,0 +1,61 @@
+<app-header></app-header>
+
+<body *ngIf="!loading">
+  <h1 style="margin: 3em;" *ngIf="eventRes.length == 0">
+    No Pending Reservations for this Service
+  </h1>
+  <div class="card-container" *ngFor="let er of eventRes">
+    <h1>{{ er.event.event.name }}</h1>
+    <form #resForm="ngForm" (ngSubmit)="onSubmit(resForm)">
+      <div class="card-container2">
+        <div class="card-subcontainer">
+          <p>
+            Date: {{ er.event.event.date }}, from
+            {{ er.event.event.starting_hour }} till
+            {{ er.event.event.duration }}
+          </p>
+          <p>Description: {{ er.event.event.description }}</p>
+          <p>Reservation Price: {{ er.reservation.price }}</p>
+          <p>Number of Guests: {{ er.event.event.number_of_guests }}</p>
+          <input
+            type="number"
+            step="0.01"
+            name="price"
+            ngModel
+            required
+            placeholder="Enter your Price"
+          />
+          <input
+            type="hidden"
+            name="event"
+            ngModel="{{ er.event.event.ide }}"
+          />
+
+          <input
+            type="hidden"
+            required
+            ngModel="{{ er.reservation.date }}"
+            name="date"
+          />
+          <input
+            type="hidden"
+            name="res"
+            #res
+            ngModel="{{ er.reservation.id }}"
+          />
+        </div>
+        <div class="card-subcontainer">
+          <img src="{{ er.event.event.pictures }}" alt="none" />
+        </div>
+      </div>
+      <div style="display: flex; justify-content: space-evenly; padding: 1%;">
+        <button type="button" (click)="reject(er)" class="btn btn-danger">
+          Reject
+        </button>
+        <button type="submit" class="btn btn-primary">
+          Accept
+        </button>
+      </div>
+    </form>
+  </div>
+</body>

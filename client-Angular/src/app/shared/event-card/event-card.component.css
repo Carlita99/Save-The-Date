@@ -1,0 +1,116 @@
+.avatar {
+  background-image: var(--img);
+  background-size: cover;
+}
+
+.mat-card {
+  width: 20em;
+  height: 20em;
+}
+
+.link:hover {
+  cursor: pointer;
+}
+
+.card-container {
+  width: 20rem;
+  height: 20rem;
+  display: flex;
+  flex-direction: column;
+  border: thin grey solid;
+  border-radius: 2%;
+
+}
+
+.grid {
+  width: fit-content;
+  border-style: solid;
+  display: grid;
+  grid-gap: 1rem;
+  grid-template-rows: repeat(4, 20%);
+}
+
+.card-header {
+  margin-top: 2%;
+  margin-bottom: 3%;
+  width: 100%;
+  height: 15%;
+  padding-top: 1%;
+
+  display: flex;
+  flex-direction: row;
+
+}
+
+.card-header-text {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  width: fit-content;
+  font-size: 0.8rem;
+}
+
+.card-header-text h6 {
+  margin: 0%;
+  font-size: 1.2rem;
+  font-weight: 500;
+  color: #333333;
+
+}
+
+.card-header-text p {
+  margin: 0;
+  text-decoration: underline;
+  color: grey;
+
+}
+
+.card-header-image {
+  display: flex;
+  justify-content: space-around;
+  align-content: space-around;
+  height: 35px;
+  width: 35px;
+
+}
+
+.card-header-image img {
+
+  object-fit: cover;
+  align-self: center;
+  border-radius: 50%;
+  vertical-align: middle;
+}
+
+.card-content {
+  width: 100%;
+  height: 85%;
+}
+
+.card-content-image {
+  width: 100%;
+  height: 70%;
+  display: flex;
+  justify-content: center;
+}
+
+.card-content-image img {
+  max-height: 100%;
+  align-self: center;
+  justify-self: center;
+  max-width: 100%;
+  object-fit: cover;
+}
+
+.card-content-description {
+  display: flex;
+  color: grey;
+  margin: 0;
+  display: flex;
+  vertical-align: middle;
+  justify-content: center;
+}
+
+.card-content-description p {
+  text-align: center;
+}

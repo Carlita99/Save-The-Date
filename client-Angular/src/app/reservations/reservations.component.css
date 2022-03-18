@@ -1,0 +1,47 @@
+.card-container {
+  margin: 1%;
+  width: 80%;
+  display: flex;
+  max-height: 500px;
+
+  flex-direction: column;
+  border: grey thin solid;
+  border-radius: 2em;
+}
+
+body {
+  display: flex;
+  align-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+}
+
+.card-container h1 {
+  align-self: center;
+  font-weight: bold;
+}
+
+.card-container2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  height: 100%;
+}
+
+.card-subcontainer {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  margin: 0% 10%;
+  height: 100%;
+}
+
+.card-subcontainer img {
+  max-width: 90%;
+  max-height: 90%;
+  min-width: 200px;
+  min-height: 200px;
+}
+
+/* Make Responsive */

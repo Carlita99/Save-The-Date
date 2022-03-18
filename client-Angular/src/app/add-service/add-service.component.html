@@ -1,0 +1,113 @@
+<app-header></app-header>
+<body>
+  <form #providerForm="ngForm" (submit)="providerSubmit(providerForm)">
+    <div class="form-container" *ngIf="!isProvider">
+      <p style="color: white;">This will be the name shown on your services</p>
+      <input
+        type="text"
+        class="input"
+        ngModel
+        name="providerName"
+        required
+        placeholder="Enter Your Service Provider Name"
+        style="width: 90%;"
+      />
+      <button type="submit" class="submit">Submit</button>
+    </div>
+  </form>
+
+  <form
+    #addServiceForm="ngForm"
+    (submit)="onSubmit(addServiceForm)"
+    *ngIf="serviceTypes"
+  >
+    <div class="form-container" *ngIf="isProvider">
+      <input
+        ngModel
+        required
+        type="text"
+        name="name"
+        placeholder="Service Name"
+        class="input"
+      />
+      <mat-form-field style="margin: 3%;">
+        <mat-label>Select the Service type</mat-label>
+        <mat-select
+          (change)="selected($event)"
+          [formControl]="serviceType"
+          name="type"
+        >
+          <mat-option *ngFor="let type of serviceTypes" [value]="type.type"
+            >{{ type.type }} - {{ type.description }}</mat-option
+          >
+        </mat-select>
+      </mat-form-field>
+      <img src="{{ imgSrc }}" [hidden]="!imgSrc" class="serviceImg" />
+      <input
+        type="file"
+        required
+        class="input"
+        accept="image/jpeg, image/png, image/jpg"
+        placeholder="Upload a picture for your service"
+        (change)="picChanged($event)"
+      />
+      <input
+        ngModel
+        type="text"
+        required
+        name="location"
+        class="input"
+        placeholder="Where is your service located?"
+      />
+      <input
+        required
+        ngModel
+        type="number"
+        min="0"
+        class="input"
+        max="24"
+        name="openingHour"
+        placeholder="When do you open?"
+      />
+      <input
+        required
+        ngModel
+        type="number"
+        class="input"
+        min="0"
+        max="24"
+        name="closingHour"
+        placeholder="When do you close?"
+      />
+      <!-- Select type -->
+      <input
+        type="text"
+        ngModel
+        name="desc"
+        class="input"
+        required
+        placeholder="A brief description about your service."
+      />
+
+      <!-- <div>
+        <mat-form-field style="margin: 3%;">
+          <mat-label>Languages</mat-label>
+          <mat-select
+            (change)="selected($event)"
+            [formControl]="languages"
+            name="type"
+            [(ngModel)]="userLanguages"
+          >
+            <mat-option
+              *ngFor="let language of languagesList"
+              [value]="language"
+              >{{ language }}</mat-option
+            >
+          </mat-select>
+        </mat-form-field>
+      </div> -->
+
+      <button type="submit" class="submit">Submit</button>
+    </div>
+  </form>
+</body>

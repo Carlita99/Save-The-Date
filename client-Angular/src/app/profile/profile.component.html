@@ -1,0 +1,42 @@
+<app-header></app-header>
+<body>
+  <div class="form-container" *ngIf="user">
+    <h2>
+      Profile
+    </h2>
+    <div class="profilePic-container">
+      <img
+        [src]="user.user.profile_pic"
+        alt=""
+        *ngIf="user && user.user.profile_pic"
+        class="profilePic"
+      />
+    </div>
+
+    <p class="info">
+      Name: {{ user.user.first_name }} {{ user.user.last_name }}
+    </p>
+    <p class="info">Birthday: {{ user.user.birthday }}</p>
+    <p class="info">Address: {{ user.user.address }}</p>
+    <p class="info">About: {{ user.user.about }}</p>
+    <p class="info">
+      Speaks:
+
+      <span *ngFor="let language of languages"> {{ language }} - </span>
+    </p>
+    <p class="info">
+      Contact: {{ user.user.email }} - {{ user.user.phone_number }}
+    </p>
+    <div class="horizontal-flex">
+      <button class="submit" (click)="goToServices()">See Services</button>
+      <button class="submit" (click)="goToEvents()">See Events</button>
+    </div>
+    <button
+      class="submit"
+      *ngIf="us && user.user.email == us.email"
+      (click)="editProfile()"
+    >
+      Edit Profile
+    </button>
+  </div>
+</body>

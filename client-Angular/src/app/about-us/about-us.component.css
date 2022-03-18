@@ -1,0 +1,15 @@
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 3rem;
+}
+
+body h1 {
+  font-size: 3rem;
+  margin: 0.5em;
+}
+
+body p {
+  margin: 1rem;
+}

@@ -1,0 +1,27 @@
+<div class="card-container">
+  <div class="card-header">
+    <div class="card-header-image">
+      <nav routerLink="{{ titleLink }}" class="link">
+        <img src="{{ profilePic }}" alt="None" class="card-header-image" />
+      </nav>
+    </div>
+    <div class="card-header-text">
+      <nav routerLink="{{ titleLink }}" class="link">
+        <h6>{{ name }}</h6>
+      </nav>
+      <nav routerLink="{{ secondaryLink }}" class="link">
+        <p>{{ organizer }}</p>
+      </nav>
+    </div>
+  </div>
+  <div class="card-content">
+    <div class="card-content-image">
+      <nav class="link" routerLink="{{ titleLink }}" class="link">
+        <img src="{{ image }}" alt="None" />
+      </nav>
+    </div>
+    <div class="card-content-description">
+      <p>{{ description }}</p>
+    </div>
+  </div>
+</div>

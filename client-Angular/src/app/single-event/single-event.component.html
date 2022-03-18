@@ -1,0 +1,42 @@
+<app-header></app-header>
+<body>
+  <div class="container" *ngIf="event">
+    <h1>{{ event.event.name }}</h1>
+    <p>{{ event.event.typeE }} by: {{ event.organizer.organizer_name }}</p>
+    <div class="subcontainer">
+      <img src="{{ event.event.pictures }}" />
+      <p>
+        This event will start at {{ event.event.starting_hour }}, and will last
+        for {{ event.event.duration }} hours
+      </p>
+
+      <p>
+        Description: {{ event.event.description }}, and will feature:
+        {{ event.event.highlights }}
+      </p>
+      <p>
+        For further Information: Email:
+        <a href="mailTo:{{ event.organizer.email }}">{{
+          event.organizer.email
+        }}</a
+        >, Phone Number: {{ event.organizer.phone_number }}
+      </p>
+      <h3>Services</h3>
+      <p *ngFor="let service of reservedServices">
+        <a routerLink="{{ '/service/' + service.ids }}"
+          >- {{ service.name }} - ({{ service.typeS }}),
+          {{ service.description }}</a
+        >
+      </p>
+    </div>
+    <a routerLink="{{ '/edit-event/' + event.event.ide }}" class="editLink">
+      <button
+        type="button"
+        class="edit"
+        *ngIf="user && user.email == event.organizer.email"
+      >
+        Edit
+      </button>
+    </a>
+  </div>
+</body>

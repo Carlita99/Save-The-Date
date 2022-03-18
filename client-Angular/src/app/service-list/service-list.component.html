@@ -1,0 +1,18 @@
+<app-header></app-header>
+<div class="loader" *ngIf="loading"></div>
+<div #container *ngIf="!loading">
+  <mat-grid-list cols="{{ colnum }}" rowHeight="23rem">
+    <mat-grid-tile *ngFor="let service of services">
+      <app-event-card
+        [name]="service.service.name"
+        [description]="service.service.description"
+        [organizer]="service.provider.provider_name"
+        [profilePic]="service.provider.profile_pic"
+        [image]="service.service.pictures"
+        titleLink="{{ '/service/' + service.service.ids }}"
+        [secondaryLink]="TOCHANGETOPROFILE"
+      >
+      </app-event-card>
+    </mat-grid-tile>
+  </mat-grid-list>
+</div>

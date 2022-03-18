@@ -1,0 +1,51 @@
+.header-login-button {
+  border: white;
+  border-style: solid;
+  width: fit-content;
+  border-radius: 10%;
+  height: auto;
+  border-width: 0.01%;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  padding-left: 15%;
+  padding-right: 15%;
+  font-size: 90%;
+
+  min-height: 50%;
+  background-color: transparent;
+  color: white;
+}
+
+.header-subcontainer {
+  display: table;
+  margin: 0.2vw;
+  padding-right: 7%;
+  display: flex;
+  margin-left: auto;
+  justify-content: flex-end;
+}
+
+.header-container {
+  width: 102%;
+  position: relative;
+  overflow: hidden;
+  background-image: linear-gradient(90deg, #5973ea, #2ebade);
+  margin-bottom: -0.5%;
+  margin-left: -0.6%;
+  margin-right: -0.6%;
+  margin-top: -0.6%;
+}
+
+.header-content {
+  width: fit-content;
+  vertical-align: middle;
+  margin-left: 4%;
+  cursor: pointer;
+  color: white;
+  margin-top: 0.5%;
+  margin-bottom: 0.5%;
+  font-family: sans-serif;
+  font-size: 120%;
+  vertical-align: middle;
+  line-height: 170%;
+}

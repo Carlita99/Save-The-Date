@@ -1,0 +1,100 @@
+<app-header></app-header>
+<body>
+  <div class="form-container">
+    <form #signUpForm="ngForm" (ngSubmit)="onSubmit(signUpForm)">
+      <h2>
+        Edit Profile
+      </h2>
+      <div class="profilePic-container">
+        <img [src]="imgSrc" alt="" *ngIf="imgSrc" class="profilePic" />
+      </div>
+      <input
+        type="file"
+        required
+        class="input"
+        accept="image/jpeg, image/png, image/jpg"
+        placeholder="Upload a picture for your service"
+        (change)="picChanged($event)"
+      />
+      <div class="horizontal-flex">
+        <input
+          type="text"
+          name="firstName"
+          class="input"
+          placeholder="First Name"
+          [ngModel]="user.first_name"
+          required
+        />
+        <input
+          type="text"
+          name="lastName"
+          class="input"
+          placeholder="Last Name"
+          required
+          [ngModel]="user.last_name"
+        />
+      </div>
+
+      <input
+        type="text"
+        name="address"
+        class="input"
+        placeholder="Where do you live?"
+        [ngModel]="user.address"
+        required
+      />
+      <input
+        type="text"
+        name="phoneNumber"
+        class="input"
+        placeholder="Phone Number"
+        required
+        [ngModel]="user.phone_number"
+      />
+
+      <div>
+        <mat-form-field class="date-input">
+          <input
+            matInput
+            name="birthday"
+            [matDatepicker]="picker"
+            placeholder="Change Your Birthday"
+            [ngModel]="birthday"
+          />
+          <mat-datepicker-toggle
+            matSuffix
+            [for]="picker"
+          ></mat-datepicker-toggle>
+          <mat-datepicker #picker></mat-datepicker>
+        </mat-form-field>
+      </div>
+      <div>
+        <mat-form-field>
+          <mat-label>Languages</mat-label>
+          <mat-select
+            (change)="selected($event)"
+            [formControl]="languages"
+            multiple
+            name="languages"
+            [(ngModel)]="userLanguages"
+          >
+            <mat-option
+              *ngFor="let language of languagesList"
+              [value]="language"
+              >{{ language }}</mat-option
+            >
+          </mat-select>
+        </mat-form-field>
+      </div>
+      <input
+        type="text"
+        name="about"
+        class="input"
+        placeholder="About"
+        required
+        [ngModel]="user.about"
+      />
+      <button type="submit" class="submit">Edit Profile</button>
+    </form>
+  </div>
+</body>

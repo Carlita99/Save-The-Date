@@ -1,0 +1,82 @@
+<app-header></app-header>
+<body>
+  <form #editServiceForm="ngForm" (submit)="onSubmit(editServiceForm)">
+    <div class="form-container">
+      <input
+        required
+        type="text"
+        name="name"
+        placeholder="Service Name"
+        class="input"
+        [(ngModel)]="service.name"
+      />
+
+      <img src="{{ imgSrc }}" [hidden]="!imgSrc" class="serviceImg" />
+      <input
+        type="file"
+        required
+        class="input"
+        accept="image/jpeg, image/png, image/jpg"
+        placeholder="Upload a picture for your service"
+        (change)="picChanged($event)"
+      />
+      <input
+        [(ngModel)]="service.location"
+        type="text"
+        required
+        name="location"
+        class="input"
+        placeholder="Where is your service located?"
+      />
+      <input
+        required
+        [(ngModel)]="service.opening_hour"
+        type="number"
+        min="0"
+        class="input"
+        max="24"
+        name="openingHour"
+        placeholder="When do you open?"
+      />
+      <input
+        required
+        [(ngModel)]="service.closing_hour"
+        type="number"
+        class="input"
+        min="0"
+        max="24"
+        name="closingHour"
+        placeholder="When do you close?"
+      />
+      <!-- Select type -->
+      <input
+        type="text"
+        [(ngModel)]="service.description"
+        name="desc"
+        class="input"
+        required
+        placeholder="A brief description about your service."
+      />
+
+      <!-- <div>
+        <mat-form-field style="margin: 3%;">
+          <mat-label>Languages</mat-label>
+          <mat-select
+            (change)="selected($event)"
+            [formControl]="languages"
+            name="type"
+            [(ngModel)]="userLanguages"
+          >
+            <mat-option
+              *ngFor="let language of languagesList"
+              [value]="language"
+              >{{ language }}</mat-option
+            >
+          </mat-select>
+        </mat-form-field>
+      </div> -->
+
+      <button type="submit" class="submit">Submit</button>
+    </div>
+  </form>
+</body>

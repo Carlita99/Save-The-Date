@@ -1,0 +1,38 @@
+<div class="modal-container">
+  <form #loginForm="ngForm" (ngSubmit)="onSubmit(loginForm)">
+    <div class="modal-header">
+      <h5 class="modal-title">Login</h5>
+      <button type="button" class="close" (click)="close()" aria-label="Close">
+        <span>&times;</span>
+      </button>
+    </div>
+    <div class="modal-body">
+      <div class="alert alert-danger" *ngIf="errorMessage">
+        {{ errorMessage }}
+      </div>
+      <div>
+        <input
+          ngbAutoFocus
+          ngModel
+          class="modal-input"
+          type="email"
+          name="email"
+          placeholder="Enter your email"
+        />
+        <input
+          class="modal-input"
+          type="password"
+          ngModel
+          name="password"
+          placeholder="Enter your password"
+        />
+        <a routerLink="/signUp" class="register"
+          >Don't have an account yet? Register now</a
+        >
+      </div>
+    </div>
+    <div class="modal-footer">
+      <button type="submit" class="btn btn-primary">Login</button>
+    </div>
+  </form>
+</div>
